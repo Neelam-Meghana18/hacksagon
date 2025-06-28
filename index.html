@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Matcher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style.css">
+    
+</head>
+<body>
+    <header>
+        <a href="index.html" id="home"><h2 class="webname">Blood Matcher&#129656;</h2></a>
+        <nav>
+            <span id="userGreeting"></span> <!-- 📝 This will display "Hello Welcome, [User Name]" -->
+            <button class="logout-btn" onclick="logoutUser()">Logout</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 id ="heading">Save Lives Through <span>Blood Donation</span></h1>
+        <p id="para">Connect blood donors with recipients in real-time. Join our platform to make a difference.</p>
+        <div class="buttons">
+            <a href="request.html">
+                <button class="request-btn">Request Blood</button>
+            </a>
+            
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3> &#9889;Smart Matching</h3>
+            <p>Advanced algorithm to match donors with recipients based on blood type and location.</p>
+        </div>
+        <div class="feature">
+            <h3>&#128100;Real-time Updates</h3>
+            <p>Get instant notifications when a match is found or when blood is needed urgently.</p>
+        </div>
+    </section>
+    <script> 
+    // ✅ Check if user is logged in & Display Name
+    document.addEventListener("DOMContentLoaded", function () {
+    const token = localStorage.getItem("token");
+    const userName = localStorage.getItem("userName");
+
+    if (!token) {
+        // 🚀 Redirect to Sign-In Page if not logged in
+        window.location.href = "signin.html";
+    } else {
+        // ✅ Display "Hello, [User Name]" or show an error if not found
+        if (userName) {
+            document.getElementById("userGreeting").innerText = `Hello, ${userName}!`;
+        } else {
+            console.warn("⚠️ User name not found in localStorage!");
+            document.getElementById("userGreeting").innerText = "Hello, User!";
+        }
+    }
+});
+
+    function logoutUser() {
+        localStorage.removeItem("token");  // ❌ Remove Token
+        localStorage.removeItem("userName");  // ❌ Remove User Name
+        window.location.href = "signin.html";  // 🔄 Redirect to Sign-In
+    }
+</script>
+
+
+</body>
+</html> -->

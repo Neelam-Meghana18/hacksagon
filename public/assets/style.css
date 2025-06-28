@@ -1,0 +1,166 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url(../assets/images/home.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 2px;
+    padding-top:7px;
+    background: transparent;  
+    border-bottom: none;
+}
+
+.register-btn,.signin-btn ,.logout-btn{
+    background-color:#de2e09;
+    color: white;
+    border: 2px solid #f62d05;
+    border-radius: 19px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size:large;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+.register-btn{
+    margin-left: 18px;
+    margin-right: 15px;
+}
+
+#home{
+        text-decoration: none;
+        color: inherit; 
+    
+}
+.hero {
+    background:transparent;
+    padding: 80px 15px;
+    margin-top: 0px;
+}
+
+.hero h1 {
+        font-family:'Times New Roman', Times, serif;
+        font-size: 48px;
+        font-weight: 700;
+        color:white;
+}
+    
+.hero h1 span {
+        font-weight: 900;
+        color: #de2e09;
+    }
+    
+
+.buttons {
+    margin-top: 20px;
+}
+
+.donate-btn, .request-btn {
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 2px solid #f62d05;
+    border-radius: 18px;
+    cursor: pointer;
+    background-color:white;
+    font-size:large;
+    font-weight: bold;
+    color: #de2e09;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 20px;
+}
+
+.feature {
+    background:rgba(255, 255, 255, 0.6);
+    padding: 18px;
+    width: 500px;
+}
+.features h3{
+    color:#de2e09;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#para{
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 4px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    
+}
+
+.webname, .love-light-regular {
+    font-family: "Love Light", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    color: #de2e09;
+    margin-top: 0px;
+  }
+ 
+  
+
+.signin-page {
+    background-image: url("../assets/images/signin.jpg"); 
+}
+
+
+.register-page {
+    background-image: url("../assets/images/register-bg.jpg"); 
+}
+
+
+.form-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#userGreeting{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+}
+.webname{
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}

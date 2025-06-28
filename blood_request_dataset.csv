@@ -1,0 +1,1001 @@
+bloodGroup,age,emergency,healthCondition,sentimentScore,rarityScore,priorityScore
+O-,3,1,cancer patient undergoing chemotherapy,0.0,1,6.0
+A-,7,0,recovering from surgery,0.0,4,2.5
+A-,38,1,"kidney patient, needs dialysis",0.0,4,4.0
+B-,50,1,critical condition due to accident,-0.06,3,4.11
+O+,58,0,recovering from surgery,0.0,5,1.9
+A-,86,1,"routine surgery, not urgent",0.0,4,4.5
+B+,25,1,severe anemia requiring urgent transfusion,0.0,7,3.79
+AB-,23,1,"liver failure, needs transplant soon",-0.32,2,4.18
+AB-,40,1,cancer patient undergoing chemotherapy,0.0,2,4.5
+O-,76,0,severe anemia requiring urgent transfusion,0.0,1,4.0
+B+,48,1,cancer patient undergoing chemotherapy,0.0,7,3.79
+B-,60,1,high fever and dehydration,0.16,3,4.01
+O-,36,0,"routine surgery, not urgent",0.0,1,3.5
+B+,81,1,"routine surgery, not urgent",0.0,7,4.29
+A+,57,1,recovering from surgery,0.0,8,3.75
+O-,73,0,serious internal bleeding from trauma,-0.17,1,3.83
+B-,63,0,critical condition due to accident,-0.06,3,2.11
+A-,71,0,recovering from surgery,0.0,4,2.5
+A+,72,1,mild dengue with moderate symptoms,0.17,8,4.08
+B-,38,1,serious internal bleeding from trauma,-0.17,3,4.0
+O-,59,1,"kidney patient, needs dialysis",0.0,1,5.5
+AB+,10,1,"routine surgery, not urgent",0.0,6,3.83
+B+,10,0,high fever and dehydration,0.16,7,1.63
+AB-,41,1,mild dengue with moderate symptoms,0.17,2,4.33
+AB+,83,1,high fever and dehydration,0.16,6,4.17
+B+,17,1,severe anemia requiring urgent transfusion,0.0,7,3.79
+O-,7,0,serious internal bleeding from trauma,-0.17,1,3.83
+AB+,75,0,mild dengue with moderate symptoms,0.17,6,2.16
+A-,46,0,high fever and dehydration,0.16,4,1.84
+A-,79,0,"kidney patient, needs dialysis",0.0,4,2.5
+O-,86,0,serious internal bleeding from trauma,-0.17,1,3.83
+A+,15,0,"routine surgery, not urgent",0.0,8,1.75
+O-,70,1,recovering from surgery,0.0,1,6.0
+B-,20,0,severe anemia requiring urgent transfusion,0.0,3,2.17
+B+,9,0,mild dengue with moderate symptoms,0.17,7,2.12
+O-,64,1,critical condition due to accident,-0.06,1,5.44
+AB+,19,0,mild dengue with moderate symptoms,0.17,6,1.66
+A-,62,1,critical condition due to accident,-0.06,4,3.94
+AB-,36,1,"kidney patient, needs dialysis",0.0,2,4.5
+A+,81,1,recovering from surgery,0.0,8,4.25
+O+,30,0,severe anemia requiring urgent transfusion,0.0,5,1.9
+AB-,18,0,cancer patient undergoing chemotherapy,0.0,2,2.5
+A-,62,0,"kidney patient, needs dialysis",0.0,4,2.0
+B-,59,1,cancer patient undergoing chemotherapy,0.0,3,4.17
+AB-,71,0,serious internal bleeding from trauma,-0.17,2,2.83
+O-,10,1,critical condition due to accident,-0.06,1,5.44
+O-,60,1,high fever and dehydration,0.16,1,5.34
+O+,33,1,"kidney patient, needs dialysis",0.0,5,3.9
+B-,56,0,high fever and dehydration,0.16,3,2.01
+AB-,54,1,severe anemia requiring urgent transfusion,0.0,2,4.5
+B+,76,0,severe anemia requiring urgent transfusion,0.0,7,2.29
+A-,35,1,"liver failure, needs transplant soon",-0.32,4,3.68
+AB-,27,1,"kidney patient, needs dialysis",0.0,2,4.5
+AB+,37,1,serious internal bleeding from trauma,-0.17,6,3.66
+AB+,5,0,"liver failure, needs transplant soon",-0.32,6,2.01
+B-,7,1,severe anemia requiring urgent transfusion,0.0,3,4.67
+AB-,71,0,"liver failure, needs transplant soon",-0.32,2,2.68
+AB-,35,1,"liver failure, needs transplant soon",-0.32,2,4.18
+AB-,79,0,critical condition due to accident,-0.06,2,2.94
+O+,2,0,cancer patient undergoing chemotherapy,0.0,5,2.4
+A+,42,1,mild dengue with moderate symptoms,0.17,8,3.58
+O-,30,1,critical condition due to accident,-0.06,1,5.44
+A-,73,1,cancer patient undergoing chemotherapy,0.0,4,4.5
+B+,13,0,mild dengue with moderate symptoms,0.17,7,1.62
+A+,21,0,severe anemia requiring urgent transfusion,0.0,8,1.75
+AB+,26,0,"kidney patient, needs dialysis",0.0,6,1.83
+O-,22,0,"liver failure, needs transplant soon",-0.32,1,3.18
+B-,27,0,serious internal bleeding from trauma,-0.17,3,2.0
+A+,29,1,recovering from surgery,0.0,8,3.75
+AB-,8,0,recovering from surgery,0.0,2,3.0
+A-,3,0,cancer patient undergoing chemotherapy,0.0,4,2.5
+A+,23,0,"liver failure, needs transplant soon",-0.32,8,1.43
+A+,54,1,serious internal bleeding from trauma,-0.17,8,3.58
+B-,61,0,severe anemia requiring urgent transfusion,0.0,3,2.17
+O-,74,1,recovering from surgery,0.0,1,6.0
+AB+,77,0,"kidney patient, needs dialysis",0.0,6,2.33
+B-,59,1,mild dengue with moderate symptoms,0.17,3,4.0
+A+,73,0,recovering from surgery,0.0,8,2.25
+AB+,19,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+B-,63,0,cancer patient undergoing chemotherapy,0.0,3,2.17
+O+,30,1,severe anemia requiring urgent transfusion,0.0,5,3.9
+A+,81,1,"liver failure, needs transplant soon",-0.32,8,3.93
+B-,59,1,high fever and dehydration,0.16,3,4.01
+O-,83,0,serious internal bleeding from trauma,-0.17,1,3.83
+A+,11,1,"liver failure, needs transplant soon",-0.32,8,3.43
+AB+,7,0,high fever and dehydration,0.16,6,2.17
+A+,87,0,mild dengue with moderate symptoms,0.17,8,2.08
+A+,3,1,recovering from surgery,0.0,8,4.25
+A+,6,0,critical condition due to accident,-0.06,8,2.19
+B-,67,0,"liver failure, needs transplant soon",-0.32,3,2.35
+O+,75,0,mild dengue with moderate symptoms,0.17,5,2.23
+A-,74,1,cancer patient undergoing chemotherapy,0.0,4,4.5
+A-,69,0,high fever and dehydration,0.16,4,2.34
+B-,73,0,"liver failure, needs transplant soon",-0.32,3,2.35
+A+,70,0,mild dengue with moderate symptoms,0.17,8,2.08
+O-,65,1,recovering from surgery,0.0,1,5.5
+A+,88,1,recovering from surgery,0.0,8,4.25
+A-,16,0,"liver failure, needs transplant soon",-0.32,4,1.68
+AB+,61,1,high fever and dehydration,0.16,6,3.67
+O-,9,0,"liver failure, needs transplant soon",-0.32,1,3.68
+B-,52,1,severe anemia requiring urgent transfusion,0.0,3,4.17
+A+,66,0,recovering from surgery,0.0,8,2.25
+AB-,61,0,"routine surgery, not urgent",0.0,2,2.5
+AB-,7,1,critical condition due to accident,-0.06,2,4.94
+A-,61,0,mild dengue with moderate symptoms,0.17,4,1.83
+O+,32,0,critical condition due to accident,-0.06,5,1.84
+A+,59,0,serious internal bleeding from trauma,-0.17,8,1.58
+AB+,77,1,"routine surgery, not urgent",0.0,6,4.33
+O+,52,1,"kidney patient, needs dialysis",0.0,5,3.9
+AB-,54,0,critical condition due to accident,-0.06,2,2.44
+AB-,86,1,high fever and dehydration,0.16,2,4.84
+AB-,34,0,cancer patient undergoing chemotherapy,0.0,2,2.5
+AB+,17,0,critical condition due to accident,-0.06,6,1.77
+B-,58,1,mild dengue with moderate symptoms,0.17,3,4.0
+AB-,52,0,recovering from surgery,0.0,2,2.5
+AB+,74,1,mild dengue with moderate symptoms,0.17,6,4.16
+B+,6,1,high fever and dehydration,0.16,7,4.13
+A-,45,0,severe anemia requiring urgent transfusion,0.0,4,2.0
+AB-,75,0,severe anemia requiring urgent transfusion,0.0,2,3.0
+B+,64,0,high fever and dehydration,0.16,7,1.63
+B+,63,1,"routine surgery, not urgent",0.0,7,3.79
+O-,70,0,serious internal bleeding from trauma,-0.17,1,3.83
+B+,5,0,critical condition due to accident,-0.06,7,2.23
+O-,13,1,severe anemia requiring urgent transfusion,0.0,1,5.5
+AB+,79,0,critical condition due to accident,-0.06,6,2.27
+AB+,86,1,cancer patient undergoing chemotherapy,0.0,6,4.33
+AB+,28,1,serious internal bleeding from trauma,-0.17,6,3.66
+A-,77,0,mild dengue with moderate symptoms,0.17,4,2.33
+O-,4,0,high fever and dehydration,0.16,1,3.84
+O-,22,1,cancer patient undergoing chemotherapy,0.0,1,5.5
+A-,28,1,cancer patient undergoing chemotherapy,0.0,4,4.0
+B-,52,1,critical condition due to accident,-0.06,3,4.11
+B-,73,0,recovering from surgery,0.0,3,2.67
+O-,41,0,"routine surgery, not urgent",0.0,1,3.5
+B+,59,1,cancer patient undergoing chemotherapy,0.0,7,3.79
+B-,62,1,mild dengue with moderate symptoms,0.17,3,4.0
+A-,9,0,serious internal bleeding from trauma,-0.17,4,2.33
+B-,4,0,"routine surgery, not urgent",0.0,3,2.67
+B-,34,1,"kidney patient, needs dialysis",0.0,3,4.17
+O+,32,1,"liver failure, needs transplant soon",-0.32,5,3.58
+B+,71,0,critical condition due to accident,-0.06,7,2.23
+O+,14,0,"liver failure, needs transplant soon",-0.32,5,1.58
+B-,63,0,mild dengue with moderate symptoms,0.17,3,2.0
+B+,40,0,"kidney patient, needs dialysis",0.0,7,1.79
+A-,17,1,"kidney patient, needs dialysis",0.0,4,4.0
+O-,6,0,critical condition due to accident,-0.06,1,3.94
+B+,49,1,critical condition due to accident,-0.06,7,3.73
+AB-,86,1,severe anemia requiring urgent transfusion,0.0,2,5.0
+A-,16,1,serious internal bleeding from trauma,-0.17,4,3.83
+A+,12,1,"liver failure, needs transplant soon",-0.32,8,3.43
+A+,46,0,serious internal bleeding from trauma,-0.17,8,1.58
+A+,54,0,cancer patient undergoing chemotherapy,0.0,8,1.75
+AB-,23,1,cancer patient undergoing chemotherapy,0.0,2,4.5
+O+,14,1,cancer patient undergoing chemotherapy,0.0,5,3.9
+A-,41,0,mild dengue with moderate symptoms,0.17,4,1.83
+A+,53,1,critical condition due to accident,-0.06,8,3.69
+AB+,42,0,mild dengue with moderate symptoms,0.17,6,1.66
+B+,53,1,severe anemia requiring urgent transfusion,0.0,7,3.79
+B-,57,1,serious internal bleeding from trauma,-0.17,3,4.0
+B+,89,0,critical condition due to accident,-0.06,7,2.23
+A-,72,1,cancer patient undergoing chemotherapy,0.0,4,4.5
+O-,13,1,high fever and dehydration,0.16,1,5.34
+O-,20,1,mild dengue with moderate symptoms,0.17,1,5.33
+A+,47,1,critical condition due to accident,-0.06,8,3.69
+A+,40,1,serious internal bleeding from trauma,-0.17,8,3.58
+B+,20,1,mild dengue with moderate symptoms,0.17,7,3.62
+B+,35,0,high fever and dehydration,0.16,7,1.63
+O-,24,1,high fever and dehydration,0.16,1,5.34
+A-,30,0,serious internal bleeding from trauma,-0.17,4,1.83
+O+,8,1,"routine surgery, not urgent",0.0,5,4.4
+AB-,14,1,cancer patient undergoing chemotherapy,0.0,2,4.5
+O+,60,1,severe anemia requiring urgent transfusion,0.0,5,3.9
+B+,29,1,mild dengue with moderate symptoms,0.17,7,3.62
+O+,76,1,serious internal bleeding from trauma,-0.17,5,4.23
+O-,4,1,"liver failure, needs transplant soon",-0.32,1,5.68
+AB-,5,0,recovering from surgery,0.0,2,3.0
+B+,15,1,"liver failure, needs transplant soon",-0.32,7,3.47
+AB+,39,1,"kidney patient, needs dialysis",0.0,6,3.83
+O-,40,0,cancer patient undergoing chemotherapy,0.0,1,3.5
+A+,20,0,mild dengue with moderate symptoms,0.17,8,1.58
+B+,13,1,"kidney patient, needs dialysis",0.0,7,3.79
+AB-,12,0,mild dengue with moderate symptoms,0.17,2,2.33
+O-,71,1,critical condition due to accident,-0.06,1,5.94
+A+,64,1,recovering from surgery,0.0,8,3.75
+B-,81,1,"kidney patient, needs dialysis",0.0,3,4.67
+A-,47,1,"routine surgery, not urgent",0.0,4,4.0
+A-,82,1,high fever and dehydration,0.16,4,4.34
+B-,7,0,high fever and dehydration,0.16,3,2.51
+B-,68,1,"liver failure, needs transplant soon",-0.32,3,4.35
+A-,15,1,cancer patient undergoing chemotherapy,0.0,4,4.0
+AB+,32,0,"liver failure, needs transplant soon",-0.32,6,1.51
+B+,38,0,"liver failure, needs transplant soon",-0.32,7,1.47
+AB+,14,1,mild dengue with moderate symptoms,0.17,6,3.66
+B-,16,0,high fever and dehydration,0.16,3,2.01
+O+,37,0,"kidney patient, needs dialysis",0.0,5,1.9
+AB-,80,0,severe anemia requiring urgent transfusion,0.0,2,3.0
+A+,32,1,"kidney patient, needs dialysis",0.0,8,3.75
+AB-,88,0,cancer patient undergoing chemotherapy,0.0,2,3.0
+A-,55,0,severe anemia requiring urgent transfusion,0.0,4,2.0
+A+,79,0,recovering from surgery,0.0,8,2.25
+O+,51,1,serious internal bleeding from trauma,-0.17,5,3.73
+B-,73,0,serious internal bleeding from trauma,-0.17,3,2.5
+A-,76,0,mild dengue with moderate symptoms,0.17,4,2.33
+AB+,42,1,serious internal bleeding from trauma,-0.17,6,3.66
+B+,52,0,recovering from surgery,0.0,7,1.79
+AB-,16,0,severe anemia requiring urgent transfusion,0.0,2,2.5
+O-,2,0,severe anemia requiring urgent transfusion,0.0,1,4.0
+O+,53,1,mild dengue with moderate symptoms,0.17,5,3.73
+AB-,24,0,cancer patient undergoing chemotherapy,0.0,2,2.5
+A-,79,0,mild dengue with moderate symptoms,0.17,4,2.33
+O+,12,0,mild dengue with moderate symptoms,0.17,5,1.73
+O+,47,1,high fever and dehydration,0.16,5,3.74
+B-,68,1,severe anemia requiring urgent transfusion,0.0,3,4.67
+A-,83,0,"routine surgery, not urgent",0.0,4,2.5
+AB+,73,0,high fever and dehydration,0.16,6,2.17
+A+,37,0,recovering from surgery,0.0,8,1.75
+O-,61,1,"routine surgery, not urgent",0.0,1,5.5
+AB-,85,0,high fever and dehydration,0.16,2,2.84
+O-,76,0,serious internal bleeding from trauma,-0.17,1,3.83
+O-,25,1,critical condition due to accident,-0.06,1,5.44
+AB+,60,0,cancer patient undergoing chemotherapy,0.0,6,1.83
+B-,32,1,high fever and dehydration,0.16,3,4.01
+AB+,21,1,"routine surgery, not urgent",0.0,6,3.83
+AB+,71,1,mild dengue with moderate symptoms,0.17,6,4.16
+O+,48,1,critical condition due to accident,-0.06,5,3.84
+A+,82,1,severe anemia requiring urgent transfusion,0.0,8,4.25
+O+,73,0,severe anemia requiring urgent transfusion,0.0,5,2.4
+A+,17,0,"kidney patient, needs dialysis",0.0,8,1.75
+O-,79,1,critical condition due to accident,-0.06,1,5.94
+B-,69,0,"routine surgery, not urgent",0.0,3,2.67
+AB+,17,1,serious internal bleeding from trauma,-0.17,6,3.66
+AB-,83,0,"routine surgery, not urgent",0.0,2,3.0
+AB+,63,1,"kidney patient, needs dialysis",0.0,6,3.83
+O-,38,1,"liver failure, needs transplant soon",-0.32,1,5.18
+AB+,58,0,high fever and dehydration,0.16,6,1.67
+A-,47,1,"liver failure, needs transplant soon",-0.32,4,3.68
+O-,30,0,"routine surgery, not urgent",0.0,1,3.5
+O+,9,0,critical condition due to accident,-0.06,5,2.34
+B-,87,0,critical condition due to accident,-0.06,3,2.61
+AB-,43,0,severe anemia requiring urgent transfusion,0.0,2,2.5
+B+,87,0,"liver failure, needs transplant soon",-0.32,7,1.97
+AB-,32,0,severe anemia requiring urgent transfusion,0.0,2,2.5
+B+,88,0,severe anemia requiring urgent transfusion,0.0,7,2.29
+B-,89,1,high fever and dehydration,0.16,3,4.51
+B+,33,0,critical condition due to accident,-0.06,7,1.73
+AB+,16,1,recovering from surgery,0.0,6,3.83
+O+,71,0,cancer patient undergoing chemotherapy,0.0,5,2.4
+O+,28,0,mild dengue with moderate symptoms,0.17,5,1.73
+AB+,32,0,high fever and dehydration,0.16,6,1.67
+A+,24,1,cancer patient undergoing chemotherapy,0.0,8,3.75
+AB+,11,1,"routine surgery, not urgent",0.0,6,3.83
+A+,90,0,"liver failure, needs transplant soon",-0.32,8,1.93
+O-,59,1,"liver failure, needs transplant soon",-0.32,1,5.18
+O-,61,0,serious internal bleeding from trauma,-0.17,1,3.33
+AB+,71,1,serious internal bleeding from trauma,-0.17,6,4.16
+O-,88,0,high fever and dehydration,0.16,1,3.84
+O+,20,1,"kidney patient, needs dialysis",0.0,5,3.9
+A-,8,1,recovering from surgery,0.0,4,4.5
+AB-,34,0,high fever and dehydration,0.16,2,2.34
+B+,48,0,high fever and dehydration,0.16,7,1.63
+O+,9,1,mild dengue with moderate symptoms,0.17,5,4.23
+A-,27,0,"kidney patient, needs dialysis",0.0,4,2.0
+AB-,46,0,"liver failure, needs transplant soon",-0.32,2,2.18
+B-,37,0,"routine surgery, not urgent",0.0,3,2.17
+AB-,1,0,"routine surgery, not urgent",0.0,2,3.0
+A+,63,0,recovering from surgery,0.0,8,1.75
+O-,20,0,recovering from surgery,0.0,1,3.5
+O+,8,0,high fever and dehydration,0.16,5,2.24
+A+,78,0,cancer patient undergoing chemotherapy,0.0,8,2.25
+B+,25,0,recovering from surgery,0.0,7,1.79
+O-,68,0,"kidney patient, needs dialysis",0.0,1,4.0
+B+,77,0,"liver failure, needs transplant soon",-0.32,7,1.97
+A+,20,1,"liver failure, needs transplant soon",-0.32,8,3.43
+O+,16,1,"liver failure, needs transplant soon",-0.32,5,3.58
+A-,22,0,"routine surgery, not urgent",0.0,4,2.0
+A-,6,0,severe anemia requiring urgent transfusion,0.0,4,2.5
+B-,47,1,severe anemia requiring urgent transfusion,0.0,3,4.17
+A-,40,0,severe anemia requiring urgent transfusion,0.0,4,2.0
+O+,16,0,severe anemia requiring urgent transfusion,0.0,5,1.9
+B+,33,0,"kidney patient, needs dialysis",0.0,7,1.79
+AB-,53,1,"routine surgery, not urgent",0.0,2,4.5
+B-,88,1,severe anemia requiring urgent transfusion,0.0,3,4.67
+O+,90,0,"kidney patient, needs dialysis",0.0,5,2.4
+B-,11,0,critical condition due to accident,-0.06,3,2.11
+A+,82,1,cancer patient undergoing chemotherapy,0.0,8,4.25
+AB-,69,1,critical condition due to accident,-0.06,2,4.94
+B+,2,0,serious internal bleeding from trauma,-0.17,7,2.12
+A+,14,1,"routine surgery, not urgent",0.0,8,3.75
+A-,62,1,critical condition due to accident,-0.06,4,3.94
+AB+,41,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+B+,31,1,cancer patient undergoing chemotherapy,0.0,7,3.79
+AB-,21,0,cancer patient undergoing chemotherapy,0.0,2,2.5
+AB-,41,1,recovering from surgery,0.0,2,4.5
+A-,36,0,severe anemia requiring urgent transfusion,0.0,4,2.0
+AB+,44,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+B+,30,1,serious internal bleeding from trauma,-0.17,7,3.62
+O+,32,0,mild dengue with moderate symptoms,0.17,5,1.73
+A+,49,1,high fever and dehydration,0.16,8,3.59
+AB-,73,1,"liver failure, needs transplant soon",-0.32,2,4.68
+B+,45,0,"routine surgery, not urgent",0.0,7,1.79
+O-,58,1,recovering from surgery,0.0,1,5.5
+B-,24,1,mild dengue with moderate symptoms,0.17,3,4.0
+B-,64,1,mild dengue with moderate symptoms,0.17,3,4.0
+A-,41,1,critical condition due to accident,-0.06,4,3.94
+AB-,64,1,"routine surgery, not urgent",0.0,2,4.5
+B-,89,0,"kidney patient, needs dialysis",0.0,3,2.67
+B-,48,1,recovering from surgery,0.0,3,4.17
+O-,84,1,cancer patient undergoing chemotherapy,0.0,1,6.0
+B+,21,0,critical condition due to accident,-0.06,7,1.73
+O-,4,0,recovering from surgery,0.0,1,4.0
+B+,32,1,recovering from surgery,0.0,7,3.79
+B-,87,0,"routine surgery, not urgent",0.0,3,2.67
+O-,71,0,serious internal bleeding from trauma,-0.17,1,3.83
+A+,38,0,recovering from surgery,0.0,8,1.75
+A+,19,0,recovering from surgery,0.0,8,1.75
+A-,19,1,"kidney patient, needs dialysis",0.0,4,4.0
+O-,21,0,mild dengue with moderate symptoms,0.17,1,3.33
+B-,53,1,"liver failure, needs transplant soon",-0.32,3,3.85
+A+,70,1,mild dengue with moderate symptoms,0.17,8,4.08
+A+,70,1,severe anemia requiring urgent transfusion,0.0,8,4.25
+O+,39,1,cancer patient undergoing chemotherapy,0.0,5,3.9
+AB+,85,1,"liver failure, needs transplant soon",-0.32,6,4.01
+O-,26,0,"kidney patient, needs dialysis",0.0,1,3.5
+O+,52,0,"liver failure, needs transplant soon",-0.32,5,1.58
+B+,37,0,recovering from surgery,0.0,7,1.79
+A+,48,1,"routine surgery, not urgent",0.0,8,3.75
+B+,57,0,mild dengue with moderate symptoms,0.17,7,1.62
+A+,19,1,severe anemia requiring urgent transfusion,0.0,8,3.75
+O-,40,0,"liver failure, needs transplant soon",-0.32,1,3.18
+O+,23,1,cancer patient undergoing chemotherapy,0.0,5,3.9
+B-,47,0,"routine surgery, not urgent",0.0,3,2.17
+AB-,12,1,critical condition due to accident,-0.06,2,4.44
+AB-,63,0,high fever and dehydration,0.16,2,2.34
+B-,27,1,"kidney patient, needs dialysis",0.0,3,4.17
+B+,20,1,high fever and dehydration,0.16,7,3.63
+O+,60,0,critical condition due to accident,-0.06,5,1.84
+B-,41,0,"liver failure, needs transplant soon",-0.32,3,1.85
+AB-,77,0,"kidney patient, needs dialysis",0.0,2,3.0
+O+,15,1,"kidney patient, needs dialysis",0.0,5,3.9
+AB+,47,0,recovering from surgery,0.0,6,1.83
+O-,51,0,mild dengue with moderate symptoms,0.17,1,3.33
+A+,28,0,cancer patient undergoing chemotherapy,0.0,8,1.75
+O-,16,1,high fever and dehydration,0.16,1,5.34
+AB+,65,1,serious internal bleeding from trauma,-0.17,6,3.66
+B-,17,0,"kidney patient, needs dialysis",0.0,3,2.17
+A+,27,0,severe anemia requiring urgent transfusion,0.0,8,1.75
+A+,47,1,cancer patient undergoing chemotherapy,0.0,8,3.75
+O-,39,0,"liver failure, needs transplant soon",-0.32,1,3.18
+O+,68,1,recovering from surgery,0.0,5,4.4
+O-,38,1,severe anemia requiring urgent transfusion,0.0,1,5.5
+AB-,63,1,serious internal bleeding from trauma,-0.17,2,4.33
+A-,51,1,high fever and dehydration,0.16,4,3.84
+B+,38,0,severe anemia requiring urgent transfusion,0.0,7,1.79
+AB-,44,1,recovering from surgery,0.0,2,4.5
+AB+,26,0,"kidney patient, needs dialysis",0.0,6,1.83
+A-,35,0,serious internal bleeding from trauma,-0.17,4,1.83
+O+,69,1,recovering from surgery,0.0,5,4.4
+AB+,16,0,"liver failure, needs transplant soon",-0.32,6,1.51
+O+,69,1,serious internal bleeding from trauma,-0.17,5,4.23
+O-,11,1,critical condition due to accident,-0.06,1,5.44
+B-,81,1,"kidney patient, needs dialysis",0.0,3,4.67
+AB+,20,0,serious internal bleeding from trauma,-0.17,6,1.66
+A-,74,1,"liver failure, needs transplant soon",-0.32,4,4.18
+A-,58,1,cancer patient undergoing chemotherapy,0.0,4,4.0
+A-,9,1,severe anemia requiring urgent transfusion,0.0,4,4.5
+AB-,52,1,serious internal bleeding from trauma,-0.17,2,4.33
+B+,6,1,"kidney patient, needs dialysis",0.0,7,4.29
+AB+,84,0,"routine surgery, not urgent",0.0,6,2.33
+B-,79,1,"liver failure, needs transplant soon",-0.32,3,4.35
+A+,58,0,"kidney patient, needs dialysis",0.0,8,1.75
+AB+,87,1,critical condition due to accident,-0.06,6,4.27
+B-,22,0,high fever and dehydration,0.16,3,2.01
+A-,58,1,high fever and dehydration,0.16,4,3.84
+AB-,79,0,recovering from surgery,0.0,2,3.0
+B+,86,1,mild dengue with moderate symptoms,0.17,7,4.12
+A+,20,1,"kidney patient, needs dialysis",0.0,8,3.75
+A+,41,1,"routine surgery, not urgent",0.0,8,3.75
+AB-,11,0,"liver failure, needs transplant soon",-0.32,2,2.18
+O+,86,0,cancer patient undergoing chemotherapy,0.0,5,2.4
+O-,29,1,"liver failure, needs transplant soon",-0.32,1,5.18
+B-,2,1,cancer patient undergoing chemotherapy,0.0,3,4.67
+A-,63,0,"kidney patient, needs dialysis",0.0,4,2.0
+A-,45,0,"liver failure, needs transplant soon",-0.32,4,1.68
+A+,56,0,"kidney patient, needs dialysis",0.0,8,1.75
+B+,79,1,mild dengue with moderate symptoms,0.17,7,4.12
+B-,31,1,critical condition due to accident,-0.06,3,4.11
+AB+,46,0,severe anemia requiring urgent transfusion,0.0,6,1.83
+A-,29,1,"liver failure, needs transplant soon",-0.32,4,3.68
+AB+,9,1,critical condition due to accident,-0.06,6,4.27
+AB+,55,0,serious internal bleeding from trauma,-0.17,6,1.66
+O+,55,1,recovering from surgery,0.0,5,3.9
+A+,44,1,"kidney patient, needs dialysis",0.0,8,3.75
+A+,84,1,"kidney patient, needs dialysis",0.0,8,4.25
+O-,32,0,high fever and dehydration,0.16,1,3.34
+B-,11,0,recovering from surgery,0.0,3,2.17
+O-,47,1,mild dengue with moderate symptoms,0.17,1,5.33
+AB+,47,0,"routine surgery, not urgent",0.0,6,1.83
+B+,13,1,"liver failure, needs transplant soon",-0.32,7,3.47
+AB-,41,1,"liver failure, needs transplant soon",-0.32,2,4.18
+AB-,51,0,severe anemia requiring urgent transfusion,0.0,2,2.5
+A-,20,1,"kidney patient, needs dialysis",0.0,4,4.0
+O-,77,0,"kidney patient, needs dialysis",0.0,1,4.0
+B+,54,1,severe anemia requiring urgent transfusion,0.0,7,3.79
+A-,33,0,serious internal bleeding from trauma,-0.17,4,1.83
+O-,11,0,"routine surgery, not urgent",0.0,1,3.5
+A+,79,1,"routine surgery, not urgent",0.0,8,4.25
+A+,80,0,serious internal bleeding from trauma,-0.17,8,2.08
+A+,21,0,"kidney patient, needs dialysis",0.0,8,1.75
+A+,48,1,recovering from surgery,0.0,8,3.75
+O+,29,1,mild dengue with moderate symptoms,0.17,5,3.73
+B-,74,0,cancer patient undergoing chemotherapy,0.0,3,2.67
+B+,39,1,mild dengue with moderate symptoms,0.17,7,3.62
+AB-,76,1,cancer patient undergoing chemotherapy,0.0,2,5.0
+AB+,70,1,"kidney patient, needs dialysis",0.0,6,4.33
+O+,73,0,critical condition due to accident,-0.06,5,2.34
+A+,43,0,critical condition due to accident,-0.06,8,1.69
+O+,57,0,serious internal bleeding from trauma,-0.17,5,1.73
+AB+,10,0,high fever and dehydration,0.16,6,1.67
+AB-,75,1,mild dengue with moderate symptoms,0.17,2,4.83
+A+,23,0,"kidney patient, needs dialysis",0.0,8,1.75
+A+,43,1,"routine surgery, not urgent",0.0,8,3.75
+A+,83,0,critical condition due to accident,-0.06,8,2.19
+B+,71,1,cancer patient undergoing chemotherapy,0.0,7,4.29
+A-,20,0,recovering from surgery,0.0,4,2.0
+B-,28,1,critical condition due to accident,-0.06,3,4.11
+B-,70,1,mild dengue with moderate symptoms,0.17,3,4.5
+O+,74,1,cancer patient undergoing chemotherapy,0.0,5,4.4
+O+,11,0,mild dengue with moderate symptoms,0.17,5,1.73
+O-,58,1,"routine surgery, not urgent",0.0,1,5.5
+O+,37,0,"liver failure, needs transplant soon",-0.32,5,1.58
+AB+,70,0,severe anemia requiring urgent transfusion,0.0,6,2.33
+A-,72,1,"kidney patient, needs dialysis",0.0,4,4.5
+A-,6,0,recovering from surgery,0.0,4,2.5
+A-,19,1,cancer patient undergoing chemotherapy,0.0,4,4.0
+AB-,76,1,mild dengue with moderate symptoms,0.17,2,4.83
+O+,22,1,cancer patient undergoing chemotherapy,0.0,5,3.9
+B+,53,0,"routine surgery, not urgent",0.0,7,1.79
+B-,7,1,mild dengue with moderate symptoms,0.17,3,4.5
+B+,48,1,critical condition due to accident,-0.06,7,3.73
+O-,89,1,"kidney patient, needs dialysis",0.0,1,6.0
+A-,63,1,cancer patient undergoing chemotherapy,0.0,4,4.0
+B-,46,1,serious internal bleeding from trauma,-0.17,3,4.0
+O+,10,0,recovering from surgery,0.0,5,1.9
+O+,4,1,high fever and dehydration,0.16,5,4.24
+AB-,68,1,"routine surgery, not urgent",0.0,2,5.0
+A-,44,1,high fever and dehydration,0.16,4,3.84
+AB+,53,0,critical condition due to accident,-0.06,6,1.77
+O+,13,0,mild dengue with moderate symptoms,0.17,5,1.73
+AB-,47,0,serious internal bleeding from trauma,-0.17,2,2.33
+B+,35,1,critical condition due to accident,-0.06,7,3.73
+A+,79,0,"routine surgery, not urgent",0.0,8,2.25
+AB-,32,0,mild dengue with moderate symptoms,0.17,2,2.33
+B+,21,1,"routine surgery, not urgent",0.0,7,3.79
+AB+,51,0,"routine surgery, not urgent",0.0,6,1.83
+O-,64,1,cancer patient undergoing chemotherapy,0.0,1,5.5
+B+,49,1,"routine surgery, not urgent",0.0,7,3.79
+O+,45,0,"routine surgery, not urgent",0.0,5,1.9
+A-,46,0,mild dengue with moderate symptoms,0.17,4,1.83
+O+,43,1,severe anemia requiring urgent transfusion,0.0,5,3.9
+A+,77,1,"kidney patient, needs dialysis",0.0,8,4.25
+O-,65,0,critical condition due to accident,-0.06,1,3.44
+O+,23,0,serious internal bleeding from trauma,-0.17,5,1.73
+A-,30,0,"liver failure, needs transplant soon",-0.32,4,1.68
+B+,83,0,serious internal bleeding from trauma,-0.17,7,2.12
+A-,3,0,severe anemia requiring urgent transfusion,0.0,4,2.5
+O+,1,0,mild dengue with moderate symptoms,0.17,5,2.23
+A+,64,1,critical condition due to accident,-0.06,8,3.69
+AB-,81,0,serious internal bleeding from trauma,-0.17,2,2.83
+AB+,18,0,"routine surgery, not urgent",0.0,6,1.83
+O+,80,1,serious internal bleeding from trauma,-0.17,5,4.23
+B-,20,1,severe anemia requiring urgent transfusion,0.0,3,4.17
+AB+,67,1,mild dengue with moderate symptoms,0.17,6,4.16
+B+,85,0,"liver failure, needs transplant soon",-0.32,7,1.97
+B+,58,1,"liver failure, needs transplant soon",-0.32,7,3.47
+A-,41,0,"liver failure, needs transplant soon",-0.32,4,1.68
+B+,74,0,recovering from surgery,0.0,7,2.29
+O-,34,0,serious internal bleeding from trauma,-0.17,1,3.33
+AB-,84,1,cancer patient undergoing chemotherapy,0.0,2,5.0
+B+,67,1,serious internal bleeding from trauma,-0.17,7,4.12
+AB+,10,1,"liver failure, needs transplant soon",-0.32,6,3.51
+B+,29,1,serious internal bleeding from trauma,-0.17,7,3.62
+A+,38,1,recovering from surgery,0.0,8,3.75
+O+,64,1,high fever and dehydration,0.16,5,3.74
+B-,55,0,"routine surgery, not urgent",0.0,3,2.17
+AB-,49,1,critical condition due to accident,-0.06,2,4.44
+AB-,33,1,serious internal bleeding from trauma,-0.17,2,4.33
+B+,51,0,"liver failure, needs transplant soon",-0.32,7,1.47
+A+,6,1,high fever and dehydration,0.16,8,4.09
+O+,54,1,serious internal bleeding from trauma,-0.17,5,3.73
+A+,33,1,severe anemia requiring urgent transfusion,0.0,8,3.75
+A+,64,0,severe anemia requiring urgent transfusion,0.0,8,1.75
+AB+,41,1,critical condition due to accident,-0.06,6,3.77
+O+,13,1,"kidney patient, needs dialysis",0.0,5,3.9
+A-,74,0,"kidney patient, needs dialysis",0.0,4,2.5
+AB-,57,0,"kidney patient, needs dialysis",0.0,2,2.5
+A+,77,0,"liver failure, needs transplant soon",-0.32,8,1.93
+B-,47,1,recovering from surgery,0.0,3,4.17
+B+,12,1,cancer patient undergoing chemotherapy,0.0,7,3.79
+O-,31,0,"liver failure, needs transplant soon",-0.32,1,3.18
+A-,63,1,serious internal bleeding from trauma,-0.17,4,3.83
+B-,9,0,"kidney patient, needs dialysis",0.0,3,2.67
+A-,37,1,high fever and dehydration,0.16,4,3.84
+B+,52,1,"liver failure, needs transplant soon",-0.32,7,3.47
+AB+,7,0,recovering from surgery,0.0,6,2.33
+A-,14,1,"liver failure, needs transplant soon",-0.32,4,3.68
+O-,69,1,recovering from surgery,0.0,1,6.0
+B+,60,1,"routine surgery, not urgent",0.0,7,3.79
+B+,34,0,high fever and dehydration,0.16,7,1.63
+A+,32,1,recovering from surgery,0.0,8,3.75
+O-,71,0,recovering from surgery,0.0,1,4.0
+O-,90,1,critical condition due to accident,-0.06,1,5.94
+A-,82,1,severe anemia requiring urgent transfusion,0.0,4,4.5
+A-,24,0,"kidney patient, needs dialysis",0.0,4,2.0
+A-,66,0,serious internal bleeding from trauma,-0.17,4,2.33
+A+,60,0,serious internal bleeding from trauma,-0.17,8,1.58
+AB+,15,1,high fever and dehydration,0.16,6,3.67
+A-,9,0,"routine surgery, not urgent",0.0,4,2.5
+A+,8,1,"liver failure, needs transplant soon",-0.32,8,3.93
+B+,54,1,mild dengue with moderate symptoms,0.17,7,3.62
+AB-,52,0,high fever and dehydration,0.16,2,2.34
+B-,54,0,"liver failure, needs transplant soon",-0.32,3,1.85
+AB+,16,1,critical condition due to accident,-0.06,6,3.77
+O+,40,0,recovering from surgery,0.0,5,1.9
+O+,51,0,high fever and dehydration,0.16,5,1.74
+A-,33,1,"routine surgery, not urgent",0.0,4,4.0
+O-,45,0,mild dengue with moderate symptoms,0.17,1,3.33
+A+,25,0,high fever and dehydration,0.16,8,1.59
+AB+,63,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+O-,35,0,"kidney patient, needs dialysis",0.0,1,3.5
+A-,12,0,"kidney patient, needs dialysis",0.0,4,2.0
+O-,82,0,cancer patient undergoing chemotherapy,0.0,1,4.0
+A-,72,0,recovering from surgery,0.0,4,2.5
+A-,56,0,high fever and dehydration,0.16,4,1.84
+O-,72,0,mild dengue with moderate symptoms,0.17,1,3.83
+O-,53,1,mild dengue with moderate symptoms,0.17,1,5.33
+O+,85,0,"kidney patient, needs dialysis",0.0,5,2.4
+B-,1,1,recovering from surgery,0.0,3,4.67
+B+,15,0,"kidney patient, needs dialysis",0.0,7,1.79
+O+,66,0,severe anemia requiring urgent transfusion,0.0,5,2.4
+O+,7,0,serious internal bleeding from trauma,-0.17,5,2.23
+O-,64,1,"kidney patient, needs dialysis",0.0,1,5.5
+A+,46,1,high fever and dehydration,0.16,8,3.59
+O-,30,1,cancer patient undergoing chemotherapy,0.0,1,5.5
+B-,63,1,"kidney patient, needs dialysis",0.0,3,4.17
+O+,65,0,high fever and dehydration,0.16,5,1.74
+A-,58,0,cancer patient undergoing chemotherapy,0.0,4,2.0
+O+,34,1,serious internal bleeding from trauma,-0.17,5,3.73
+O+,89,0,high fever and dehydration,0.16,5,2.24
+B+,17,1,high fever and dehydration,0.16,7,3.63
+O-,23,1,"liver failure, needs transplant soon",-0.32,1,5.18
+O+,9,0,"kidney patient, needs dialysis",0.0,5,2.4
+A+,1,1,"routine surgery, not urgent",0.0,8,4.25
+AB+,48,0,severe anemia requiring urgent transfusion,0.0,6,1.83
+O-,37,1,"kidney patient, needs dialysis",0.0,1,5.5
+A+,11,1,cancer patient undergoing chemotherapy,0.0,8,3.75
+O+,45,0,serious internal bleeding from trauma,-0.17,5,1.73
+B-,50,1,serious internal bleeding from trauma,-0.17,3,4.0
+A+,61,1,recovering from surgery,0.0,8,3.75
+AB-,75,1,severe anemia requiring urgent transfusion,0.0,2,5.0
+AB+,44,0,severe anemia requiring urgent transfusion,0.0,6,1.83
+AB-,27,1,"routine surgery, not urgent",0.0,2,4.5
+AB-,74,0,cancer patient undergoing chemotherapy,0.0,2,3.0
+O+,90,0,"routine surgery, not urgent",0.0,5,2.4
+AB+,46,0,severe anemia requiring urgent transfusion,0.0,6,1.83
+B-,24,1,mild dengue with moderate symptoms,0.17,3,4.0
+O+,64,1,recovering from surgery,0.0,5,3.9
+O+,33,0,critical condition due to accident,-0.06,5,1.84
+AB-,21,0,cancer patient undergoing chemotherapy,0.0,2,2.5
+A-,90,1,high fever and dehydration,0.16,4,4.34
+A-,69,0,severe anemia requiring urgent transfusion,0.0,4,2.5
+O-,7,1,cancer patient undergoing chemotherapy,0.0,1,6.0
+A+,66,1,high fever and dehydration,0.16,8,4.09
+O+,19,1,"liver failure, needs transplant soon",-0.32,5,3.58
+AB-,74,0,mild dengue with moderate symptoms,0.17,2,2.83
+B-,39,1,severe anemia requiring urgent transfusion,0.0,3,4.17
+AB-,58,1,high fever and dehydration,0.16,2,4.34
+B+,21,1,"kidney patient, needs dialysis",0.0,7,3.79
+B-,33,1,cancer patient undergoing chemotherapy,0.0,3,4.17
+B-,44,1,serious internal bleeding from trauma,-0.17,3,4.0
+AB-,19,0,"liver failure, needs transplant soon",-0.32,2,2.18
+AB+,24,0,high fever and dehydration,0.16,6,1.67
+A-,45,1,serious internal bleeding from trauma,-0.17,4,3.83
+AB-,24,1,severe anemia requiring urgent transfusion,0.0,2,4.5
+O+,15,1,high fever and dehydration,0.16,5,3.74
+A+,23,1,mild dengue with moderate symptoms,0.17,8,3.58
+AB+,39,1,mild dengue with moderate symptoms,0.17,6,3.66
+O+,83,0,severe anemia requiring urgent transfusion,0.0,5,2.4
+A+,61,0,recovering from surgery,0.0,8,1.75
+O-,87,0,"routine surgery, not urgent",0.0,1,4.0
+A-,39,1,high fever and dehydration,0.16,4,3.84
+O+,71,1,critical condition due to accident,-0.06,5,4.34
+AB+,11,1,"routine surgery, not urgent",0.0,6,3.83
+A-,3,1,"liver failure, needs transplant soon",-0.32,4,4.18
+B+,66,1,"kidney patient, needs dialysis",0.0,7,4.29
+A-,68,1,serious internal bleeding from trauma,-0.17,4,4.33
+A+,52,1,mild dengue with moderate symptoms,0.17,8,3.58
+B-,53,0,"routine surgery, not urgent",0.0,3,2.17
+A+,20,0,cancer patient undergoing chemotherapy,0.0,8,1.75
+B+,35,1,cancer patient undergoing chemotherapy,0.0,7,3.79
+A+,49,1,critical condition due to accident,-0.06,8,3.69
+B+,45,0,mild dengue with moderate symptoms,0.17,7,1.62
+O+,57,0,critical condition due to accident,-0.06,5,1.84
+O+,38,0,cancer patient undergoing chemotherapy,0.0,5,1.9
+B+,30,1,"routine surgery, not urgent",0.0,7,3.79
+O+,60,0,"routine surgery, not urgent",0.0,5,1.9
+B-,8,1,"liver failure, needs transplant soon",-0.32,3,4.35
+A+,24,0,"routine surgery, not urgent",0.0,8,1.75
+A+,27,1,"liver failure, needs transplant soon",-0.32,8,3.43
+A+,7,0,"kidney patient, needs dialysis",0.0,8,2.25
+O-,25,1,recovering from surgery,0.0,1,5.5
+B-,2,1,"kidney patient, needs dialysis",0.0,3,4.67
+A+,36,1,"routine surgery, not urgent",0.0,8,3.75
+O-,9,0,mild dengue with moderate symptoms,0.17,1,3.83
+O+,13,0,"liver failure, needs transplant soon",-0.32,5,1.58
+O-,88,1,"kidney patient, needs dialysis",0.0,1,6.0
+O-,50,0,"liver failure, needs transplant soon",-0.32,1,3.18
+AB+,43,0,severe anemia requiring urgent transfusion,0.0,6,1.83
+O+,75,0,"liver failure, needs transplant soon",-0.32,5,2.08
+AB+,38,1,serious internal bleeding from trauma,-0.17,6,3.66
+O+,7,0,"liver failure, needs transplant soon",-0.32,5,2.08
+A-,3,0,serious internal bleeding from trauma,-0.17,4,2.33
+A+,70,0,severe anemia requiring urgent transfusion,0.0,8,2.25
+A+,80,0,critical condition due to accident,-0.06,8,2.19
+AB+,58,0,recovering from surgery,0.0,6,1.83
+AB+,37,1,mild dengue with moderate symptoms,0.17,6,3.66
+B-,47,0,recovering from surgery,0.0,3,2.17
+O+,57,0,"liver failure, needs transplant soon",-0.32,5,1.58
+AB+,39,0,high fever and dehydration,0.16,6,1.67
+AB-,40,1,critical condition due to accident,-0.06,2,4.44
+B-,87,0,serious internal bleeding from trauma,-0.17,3,2.5
+A+,58,0,recovering from surgery,0.0,8,1.75
+B-,50,0,high fever and dehydration,0.16,3,2.01
+O+,72,0,"kidney patient, needs dialysis",0.0,5,2.4
+A-,77,1,critical condition due to accident,-0.06,4,4.44
+A+,77,0,cancer patient undergoing chemotherapy,0.0,8,2.25
+AB+,43,1,serious internal bleeding from trauma,-0.17,6,3.66
+AB-,71,1,recovering from surgery,0.0,2,5.0
+B+,1,0,"kidney patient, needs dialysis",0.0,7,2.29
+AB-,34,0,"kidney patient, needs dialysis",0.0,2,2.5
+B+,30,0,cancer patient undergoing chemotherapy,0.0,7,1.79
+A+,30,1,"kidney patient, needs dialysis",0.0,8,3.75
+B+,86,0,severe anemia requiring urgent transfusion,0.0,7,2.29
+A+,5,0,"liver failure, needs transplant soon",-0.32,8,1.93
+O+,41,0,cancer patient undergoing chemotherapy,0.0,5,1.9
+A-,3,1,"routine surgery, not urgent",0.0,4,4.5
+AB+,63,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+AB+,48,0,"liver failure, needs transplant soon",-0.32,6,1.51
+A+,44,1,cancer patient undergoing chemotherapy,0.0,8,3.75
+B-,76,1,high fever and dehydration,0.16,3,4.51
+O-,5,0,recovering from surgery,0.0,1,4.0
+A-,15,0,critical condition due to accident,-0.06,4,1.94
+B+,15,1,"liver failure, needs transplant soon",-0.32,7,3.47
+B-,79,0,"liver failure, needs transplant soon",-0.32,3,2.35
+O-,25,1,recovering from surgery,0.0,1,5.5
+O+,13,0,critical condition due to accident,-0.06,5,1.84
+AB+,56,0,mild dengue with moderate symptoms,0.17,6,1.66
+A+,68,1,critical condition due to accident,-0.06,8,4.19
+O+,74,1,recovering from surgery,0.0,5,4.4
+O-,5,1,severe anemia requiring urgent transfusion,0.0,1,6.0
+B+,77,1,mild dengue with moderate symptoms,0.17,7,4.12
+O-,63,1,cancer patient undergoing chemotherapy,0.0,1,5.5
+B-,40,0,high fever and dehydration,0.16,3,2.01
+AB+,52,1,"liver failure, needs transplant soon",-0.32,6,3.51
+AB+,4,0,recovering from surgery,0.0,6,2.33
+B-,40,1,"liver failure, needs transplant soon",-0.32,3,3.85
+A-,74,1,"liver failure, needs transplant soon",-0.32,4,4.18
+AB-,88,0,critical condition due to accident,-0.06,2,2.94
+AB+,57,1,"kidney patient, needs dialysis",0.0,6,3.83
+AB+,43,0,"liver failure, needs transplant soon",-0.32,6,1.51
+O-,4,0,high fever and dehydration,0.16,1,3.84
+B-,32,1,"kidney patient, needs dialysis",0.0,3,4.17
+A+,16,0,"kidney patient, needs dialysis",0.0,8,1.75
+O-,3,0,cancer patient undergoing chemotherapy,0.0,1,4.0
+A+,85,0,high fever and dehydration,0.16,8,2.09
+B-,69,1,high fever and dehydration,0.16,3,4.51
+A-,65,1,high fever and dehydration,0.16,4,3.84
+B+,28,1,"kidney patient, needs dialysis",0.0,7,3.79
+O-,84,0,mild dengue with moderate symptoms,0.17,1,3.83
+AB+,86,0,cancer patient undergoing chemotherapy,0.0,6,2.33
+A+,89,1,serious internal bleeding from trauma,-0.17,8,4.08
+A-,25,0,"liver failure, needs transplant soon",-0.32,4,1.68
+A-,55,0,"kidney patient, needs dialysis",0.0,4,2.0
+AB-,65,1,"liver failure, needs transplant soon",-0.32,2,4.18
+A-,12,1,"liver failure, needs transplant soon",-0.32,4,3.68
+A+,40,1,mild dengue with moderate symptoms,0.17,8,3.58
+AB+,32,0,serious internal bleeding from trauma,-0.17,6,1.66
+A+,14,1,"liver failure, needs transplant soon",-0.32,8,3.43
+B+,67,0,high fever and dehydration,0.16,7,2.13
+B+,40,1,recovering from surgery,0.0,7,3.79
+O-,79,0,critical condition due to accident,-0.06,1,3.94
+AB-,47,1,serious internal bleeding from trauma,-0.17,2,4.33
+O-,69,0,critical condition due to accident,-0.06,1,3.94
+B+,75,1,mild dengue with moderate symptoms,0.17,7,4.12
+O+,59,0,severe anemia requiring urgent transfusion,0.0,5,1.9
+AB+,77,0,severe anemia requiring urgent transfusion,0.0,6,2.33
+A-,81,1,cancer patient undergoing chemotherapy,0.0,4,4.5
+B-,76,0,"routine surgery, not urgent",0.0,3,2.67
+A+,53,1,cancer patient undergoing chemotherapy,0.0,8,3.75
+O-,66,0,serious internal bleeding from trauma,-0.17,1,3.83
+B+,20,0,recovering from surgery,0.0,7,1.79
+AB+,84,0,"kidney patient, needs dialysis",0.0,6,2.33
+A+,2,0,"routine surgery, not urgent",0.0,8,2.25
+A-,64,0,serious internal bleeding from trauma,-0.17,4,1.83
+AB-,43,0,recovering from surgery,0.0,2,2.5
+B-,16,1,"routine surgery, not urgent",0.0,3,4.17
+B+,5,1,severe anemia requiring urgent transfusion,0.0,7,4.29
+AB-,63,1,cancer patient undergoing chemotherapy,0.0,2,4.5
+A+,69,0,high fever and dehydration,0.16,8,2.09
+O+,65,1,"kidney patient, needs dialysis",0.0,5,3.9
+O+,7,0,mild dengue with moderate symptoms,0.17,5,2.23
+B-,60,0,severe anemia requiring urgent transfusion,0.0,3,2.17
+O-,28,0,mild dengue with moderate symptoms,0.17,1,3.33
+B-,22,1,mild dengue with moderate symptoms,0.17,3,4.0
+AB-,54,0,"liver failure, needs transplant soon",-0.32,2,2.18
+AB+,23,1,"liver failure, needs transplant soon",-0.32,6,3.51
+A+,18,1,"routine surgery, not urgent",0.0,8,3.75
+A-,38,0,cancer patient undergoing chemotherapy,0.0,4,2.0
+A-,11,0,"kidney patient, needs dialysis",0.0,4,2.0
+O-,26,1,critical condition due to accident,-0.06,1,5.44
+A+,32,0,"kidney patient, needs dialysis",0.0,8,1.75
+B-,46,0,"routine surgery, not urgent",0.0,3,2.17
+O+,43,0,mild dengue with moderate symptoms,0.17,5,1.73
+B-,51,0,"kidney patient, needs dialysis",0.0,3,2.17
+A-,68,1,critical condition due to accident,-0.06,4,4.44
+AB+,26,1,"routine surgery, not urgent",0.0,6,3.83
+AB-,31,0,mild dengue with moderate symptoms,0.17,2,2.33
+O-,63,0,mild dengue with moderate symptoms,0.17,1,3.33
+O+,69,0,"liver failure, needs transplant soon",-0.32,5,2.08
+AB+,44,0,"routine surgery, not urgent",0.0,6,1.83
+B+,57,0,serious internal bleeding from trauma,-0.17,7,1.62
+A+,72,0,high fever and dehydration,0.16,8,2.09
+A-,89,1,severe anemia requiring urgent transfusion,0.0,4,4.5
+O+,35,1,"kidney patient, needs dialysis",0.0,5,3.9
+O+,20,0,critical condition due to accident,-0.06,5,1.84
+O+,74,0,cancer patient undergoing chemotherapy,0.0,5,2.4
+AB+,88,0,"routine surgery, not urgent",0.0,6,2.33
+A-,36,0,cancer patient undergoing chemotherapy,0.0,4,2.0
+O+,5,1,critical condition due to accident,-0.06,5,4.34
+B-,5,0,recovering from surgery,0.0,3,2.67
+O+,64,1,cancer patient undergoing chemotherapy,0.0,5,3.9
+A+,4,0,"liver failure, needs transplant soon",-0.32,8,1.93
+B-,84,1,serious internal bleeding from trauma,-0.17,3,4.5
+O+,19,1,high fever and dehydration,0.16,5,3.74
+A+,3,1,critical condition due to accident,-0.06,8,4.19
+A+,58,0,"liver failure, needs transplant soon",-0.32,8,1.43
+B-,33,1,severe anemia requiring urgent transfusion,0.0,3,4.17
+AB+,63,0,critical condition due to accident,-0.06,6,1.77
+A+,59,1,"routine surgery, not urgent",0.0,8,3.75
+B-,43,0,recovering from surgery,0.0,3,2.17
+B+,9,1,"liver failure, needs transplant soon",-0.32,7,3.97
+AB-,14,1,mild dengue with moderate symptoms,0.17,2,4.33
+B+,2,0,severe anemia requiring urgent transfusion,0.0,7,2.29
+A+,25,0,"liver failure, needs transplant soon",-0.32,8,1.43
+AB+,53,0,"kidney patient, needs dialysis",0.0,6,1.83
+O+,19,0,critical condition due to accident,-0.06,5,1.84
+O-,78,0,high fever and dehydration,0.16,1,3.84
+O-,69,1,"liver failure, needs transplant soon",-0.32,1,5.68
+O+,67,1,mild dengue with moderate symptoms,0.17,5,4.23
+O-,51,1,"kidney patient, needs dialysis",0.0,1,5.5
+B+,8,1,high fever and dehydration,0.16,7,4.13
+B-,33,1,cancer patient undergoing chemotherapy,0.0,3,4.17
+O+,41,1,"kidney patient, needs dialysis",0.0,5,3.9
+A+,11,0,"liver failure, needs transplant soon",-0.32,8,1.43
+A-,84,0,"liver failure, needs transplant soon",-0.32,4,2.18
+B+,73,0,high fever and dehydration,0.16,7,2.13
+O+,57,1,recovering from surgery,0.0,5,3.9
+AB-,59,1,cancer patient undergoing chemotherapy,0.0,2,4.5
+AB+,55,0,"routine surgery, not urgent",0.0,6,1.83
+AB+,1,1,"liver failure, needs transplant soon",-0.32,6,4.01
+O+,85,1,critical condition due to accident,-0.06,5,4.34
+B-,9,1,critical condition due to accident,-0.06,3,4.61
+B+,56,0,"kidney patient, needs dialysis",0.0,7,1.79
+A-,5,0,recovering from surgery,0.0,4,2.5
+A+,46,1,critical condition due to accident,-0.06,8,3.69
+O-,73,1,"kidney patient, needs dialysis",0.0,1,6.0
+AB+,39,1,mild dengue with moderate symptoms,0.17,6,3.66
+AB+,47,0,"liver failure, needs transplant soon",-0.32,6,1.51
+AB+,89,0,cancer patient undergoing chemotherapy,0.0,6,2.33
+B-,86,1,critical condition due to accident,-0.06,3,4.61
+B-,45,0,severe anemia requiring urgent transfusion,0.0,3,2.17
+AB-,3,0,serious internal bleeding from trauma,-0.17,2,2.83
+O-,8,0,high fever and dehydration,0.16,1,3.84
+A-,14,1,recovering from surgery,0.0,4,4.0
+B-,72,0,recovering from surgery,0.0,3,2.67
+B+,78,0,critical condition due to accident,-0.06,7,2.23
+AB+,42,1,cancer patient undergoing chemotherapy,0.0,6,3.83
+A-,87,1,critical condition due to accident,-0.06,4,4.44
+A+,30,1,"routine surgery, not urgent",0.0,8,3.75
+B-,15,1,mild dengue with moderate symptoms,0.17,3,4.0
+B+,16,1,severe anemia requiring urgent transfusion,0.0,7,3.79
+B+,14,0,critical condition due to accident,-0.06,7,1.73
+AB-,13,1,high fever and dehydration,0.16,2,4.34
+B+,71,1,"routine surgery, not urgent",0.0,7,4.29
+B+,78,1,critical condition due to accident,-0.06,7,4.23
+AB-,43,1,cancer patient undergoing chemotherapy,0.0,2,4.5
+B+,87,0,mild dengue with moderate symptoms,0.17,7,2.12
+AB+,28,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+O-,29,0,recovering from surgery,0.0,1,3.5
+B+,85,0,"routine surgery, not urgent",0.0,7,2.29
+B+,29,1,"liver failure, needs transplant soon",-0.32,7,3.47
+O+,42,0,high fever and dehydration,0.16,5,1.74
+A-,76,0,high fever and dehydration,0.16,4,2.34
+B+,57,0,"liver failure, needs transplant soon",-0.32,7,1.47
+B-,88,0,"kidney patient, needs dialysis",0.0,3,2.67
+B-,65,1,"kidney patient, needs dialysis",0.0,3,4.17
+AB-,32,1,mild dengue with moderate symptoms,0.17,2,4.33
+B-,7,1,"liver failure, needs transplant soon",-0.32,3,4.35
+A+,61,0,"routine surgery, not urgent",0.0,8,1.75
+A+,49,1,severe anemia requiring urgent transfusion,0.0,8,3.75
+B-,80,1,critical condition due to accident,-0.06,3,4.61
+A-,62,0,recovering from surgery,0.0,4,2.0
+A+,57,1,cancer patient undergoing chemotherapy,0.0,8,3.75
+B-,64,1,serious internal bleeding from trauma,-0.17,3,4.0
+O-,44,1,"routine surgery, not urgent",0.0,1,5.5
+AB+,40,0,cancer patient undergoing chemotherapy,0.0,6,1.83
+AB+,69,1,mild dengue with moderate symptoms,0.17,6,4.16
+A-,13,0,"kidney patient, needs dialysis",0.0,4,2.0
+B-,41,1,"liver failure, needs transplant soon",-0.32,3,3.85
+B+,87,0,mild dengue with moderate symptoms,0.17,7,2.12
+O-,67,1,"kidney patient, needs dialysis",0.0,1,6.0
+A+,39,1,"kidney patient, needs dialysis",0.0,8,3.75
+AB-,82,0,cancer patient undergoing chemotherapy,0.0,2,3.0
+AB-,62,1,serious internal bleeding from trauma,-0.17,2,4.33
+AB-,81,0,high fever and dehydration,0.16,2,2.84
+AB-,39,1,"kidney patient, needs dialysis",0.0,2,4.5
+A-,89,0,serious internal bleeding from trauma,-0.17,4,2.33
+A+,35,1,serious internal bleeding from trauma,-0.17,8,3.58
+B+,71,1,mild dengue with moderate symptoms,0.17,7,4.12
+A+,22,1,recovering from surgery,0.0,8,3.75
+B-,44,1,recovering from surgery,0.0,3,4.17
+AB+,37,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+O+,27,1,high fever and dehydration,0.16,5,3.74
+A+,32,1,severe anemia requiring urgent transfusion,0.0,8,3.75
+B+,16,1,critical condition due to accident,-0.06,7,3.73
+O-,70,0,"kidney patient, needs dialysis",0.0,1,4.0
+B-,60,0,cancer patient undergoing chemotherapy,0.0,3,2.17
+A-,70,1,serious internal bleeding from trauma,-0.17,4,4.33
+O-,22,0,cancer patient undergoing chemotherapy,0.0,1,3.5
+O+,42,0,cancer patient undergoing chemotherapy,0.0,5,1.9
+O+,14,1,cancer patient undergoing chemotherapy,0.0,5,3.9
+B-,8,0,cancer patient undergoing chemotherapy,0.0,3,2.67
+A-,39,1,mild dengue with moderate symptoms,0.17,4,3.83
+O-,40,1,"kidney patient, needs dialysis",0.0,1,5.5
+B+,75,1,serious internal bleeding from trauma,-0.17,7,4.12
+B-,62,1,recovering from surgery,0.0,3,4.17
+A+,87,0,severe anemia requiring urgent transfusion,0.0,8,2.25
+AB-,53,0,serious internal bleeding from trauma,-0.17,2,2.33
+O-,32,0,critical condition due to accident,-0.06,1,3.44
+O-,26,1,"liver failure, needs transplant soon",-0.32,1,5.18
+B-,26,1,"liver failure, needs transplant soon",-0.32,3,3.85
+B-,58,1,serious internal bleeding from trauma,-0.17,3,4.0
+B+,8,1,"liver failure, needs transplant soon",-0.32,7,3.97
+B-,10,0,high fever and dehydration,0.16,3,2.01
+A-,14,1,high fever and dehydration,0.16,4,3.84
+A-,27,0,"kidney patient, needs dialysis",0.0,4,2.0
+B+,7,0,critical condition due to accident,-0.06,7,2.23
+AB+,39,0,critical condition due to accident,-0.06,6,1.77
+A+,84,1,severe anemia requiring urgent transfusion,0.0,8,4.25
+A+,11,1,serious internal bleeding from trauma,-0.17,8,3.58
+O+,15,1,"liver failure, needs transplant soon",-0.32,5,3.58
+B-,83,1,recovering from surgery,0.0,3,4.67
+AB+,12,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+A-,6,1,high fever and dehydration,0.16,4,4.34
+B+,64,1,severe anemia requiring urgent transfusion,0.0,7,3.79
+O+,26,1,critical condition due to accident,-0.06,5,3.84
+A-,81,1,cancer patient undergoing chemotherapy,0.0,4,4.5
+A+,29,1,"routine surgery, not urgent",0.0,8,3.75
+A+,13,0,high fever and dehydration,0.16,8,1.59
+A-,84,0,high fever and dehydration,0.16,4,2.34
+B+,32,0,cancer patient undergoing chemotherapy,0.0,7,1.79
+A+,61,1,mild dengue with moderate symptoms,0.17,8,3.58
+AB+,43,0,severe anemia requiring urgent transfusion,0.0,6,1.83
+B+,74,1,recovering from surgery,0.0,7,4.29
+A+,8,0,critical condition due to accident,-0.06,8,2.19
+AB+,70,0,high fever and dehydration,0.16,6,2.17
+A-,18,0,cancer patient undergoing chemotherapy,0.0,4,2.0
+A-,15,1,serious internal bleeding from trauma,-0.17,4,3.83
+O-,4,1,"kidney patient, needs dialysis",0.0,1,6.0
+B+,84,1,critical condition due to accident,-0.06,7,4.23
+A+,68,0,"liver failure, needs transplant soon",-0.32,8,1.93
+AB+,46,1,severe anemia requiring urgent transfusion,0.0,6,3.83
+A+,40,1,recovering from surgery,0.0,8,3.75
+B-,69,1,cancer patient undergoing chemotherapy,0.0,3,4.67
+O-,7,1,recovering from surgery,0.0,1,6.0
+A+,29,0,"routine surgery, not urgent",0.0,8,1.75
+A+,33,1,severe anemia requiring urgent transfusion,0.0,8,3.75
+B+,89,1,"routine surgery, not urgent",0.0,7,4.29
+AB-,24,0,"routine surgery, not urgent",0.0,2,2.5
+O+,75,0,critical condition due to accident,-0.06,5,2.34
+A-,24,0,cancer patient undergoing chemotherapy,0.0,4,2.0
+AB+,52,1,high fever and dehydration,0.16,6,3.67
+O-,24,1,"routine surgery, not urgent",0.0,1,5.5
+B-,22,0,recovering from surgery,0.0,3,2.17
+O-,75,0,mild dengue with moderate symptoms,0.17,1,3.83
+A+,64,1,mild dengue with moderate symptoms,0.17,8,3.58
+A-,23,1,critical condition due to accident,-0.06,4,3.94
+B+,62,0,recovering from surgery,0.0,7,1.79
+B+,43,0,recovering from surgery,0.0,7,1.79
+AB-,86,0,"routine surgery, not urgent",0.0,2,3.0
+A-,76,0,high fever and dehydration,0.16,4,2.34
+A-,81,1,serious internal bleeding from trauma,-0.17,4,4.33
+O-,32,1,serious internal bleeding from trauma,-0.17,1,5.33
+A+,15,0,mild dengue with moderate symptoms,0.17,8,1.58
+A+,76,0,"liver failure, needs transplant soon",-0.32,8,1.93
+O-,8,1,"routine surgery, not urgent",0.0,1,6.0
+AB+,10,0,high fever and dehydration,0.16,6,1.67
+O+,4,0,critical condition due to accident,-0.06,5,2.34
+B+,23,1,high fever and dehydration,0.16,7,3.63
+O+,73,1,"routine surgery, not urgent",0.0,5,4.4
+AB-,65,0,serious internal bleeding from trauma,-0.17,2,2.33
+B+,39,0,"liver failure, needs transplant soon",-0.32,7,1.47
+AB+,15,1,cancer patient undergoing chemotherapy,0.0,6,3.83
+AB-,7,1,"kidney patient, needs dialysis",0.0,2,5.0
+A-,57,0,serious internal bleeding from trauma,-0.17,4,1.83
+AB+,79,0,critical condition due to accident,-0.06,6,2.27
+B-,24,1,high fever and dehydration,0.16,3,4.01
+O-,28,0,"liver failure, needs transplant soon",-0.32,1,3.18
+A-,86,1,"routine surgery, not urgent",0.0,4,4.5
+A+,61,0,cancer patient undergoing chemotherapy,0.0,8,1.75
+B+,16,1,recovering from surgery,0.0,7,3.79
+AB-,29,1,critical condition due to accident,-0.06,2,4.44
+B+,83,1,severe anemia requiring urgent transfusion,0.0,7,4.29
+A-,2,0,"kidney patient, needs dialysis",0.0,4,2.5
+B-,75,1,mild dengue with moderate symptoms,0.17,3,4.5
+O+,1,0,serious internal bleeding from trauma,-0.17,5,2.23
+B-,45,0,mild dengue with moderate symptoms,0.17,3,2.0
+AB+,80,1,"routine surgery, not urgent",0.0,6,4.33
+A+,23,0,"kidney patient, needs dialysis",0.0,8,1.75
+O-,11,1,severe anemia requiring urgent transfusion,0.0,1,5.5
+O-,33,0,cancer patient undergoing chemotherapy,0.0,1,3.5
+AB-,7,1,cancer patient undergoing chemotherapy,0.0,2,5.0
+A+,87,0,recovering from surgery,0.0,8,2.25
+AB+,38,1,"kidney patient, needs dialysis",0.0,6,3.83
+O-,49,0,"liver failure, needs transplant soon",-0.32,1,3.18
+AB+,33,0,"kidney patient, needs dialysis",0.0,6,1.83
+A-,54,1,recovering from surgery,0.0,4,4.0
+B+,3,0,critical condition due to accident,-0.06,7,2.23
+O+,46,1,"routine surgery, not urgent",0.0,5,3.9
+O+,52,0,cancer patient undergoing chemotherapy,0.0,5,1.9
+O+,12,1,recovering from surgery,0.0,5,3.9
+O-,75,0,critical condition due to accident,-0.06,1,3.94
+O+,20,1,serious internal bleeding from trauma,-0.17,5,3.73
+AB+,11,0,"kidney patient, needs dialysis",0.0,6,1.83
+A-,66,0,mild dengue with moderate symptoms,0.17,4,2.33
+A+,29,0,"kidney patient, needs dialysis",0.0,8,1.75
+B-,66,1,cancer patient undergoing chemotherapy,0.0,3,4.67
+B-,65,1,serious internal bleeding from trauma,-0.17,3,4.0
+O+,1,1,recovering from surgery,0.0,5,4.4
+A+,18,0,"kidney patient, needs dialysis",0.0,8,1.75
+A-,54,1,severe anemia requiring urgent transfusion,0.0,4,4.0
+B-,59,1,cancer patient undergoing chemotherapy,0.0,3,4.17
+B+,6,1,severe anemia requiring urgent transfusion,0.0,7,4.29
+O+,58,0,"kidney patient, needs dialysis",0.0,5,1.9
+AB+,41,0,"kidney patient, needs dialysis",0.0,6,1.83
+B-,29,1,mild dengue with moderate symptoms,0.17,3,4.0
+A+,7,1,"kidney patient, needs dialysis",0.0,8,4.25
+O-,58,0,cancer patient undergoing chemotherapy,0.0,1,3.5
+AB+,47,0,serious internal bleeding from trauma,-0.17,6,1.66
+O-,1,1,"kidney patient, needs dialysis",0.0,1,6.0
+O-,73,0,recovering from surgery,0.0,1,4.0
+A+,71,0,cancer patient undergoing chemotherapy,0.0,8,2.25
+O-,16,1,cancer patient undergoing chemotherapy,0.0,1,5.5
+A+,21,0,"liver failure, needs transplant soon",-0.32,8,1.43
+B-,40,1,severe anemia requiring urgent transfusion,0.0,3,4.17
+O-,29,1,"liver failure, needs transplant soon",-0.32,1,5.18
+AB-,60,1,severe anemia requiring urgent transfusion,0.0,2,4.5
+O+,43,1,"kidney patient, needs dialysis",0.0,5,3.9
+AB-,38,0,high fever and dehydration,0.16,2,2.34
+A+,4,1,cancer patient undergoing chemotherapy,0.0,8,4.25
+B+,30,1,recovering from surgery,0.0,7,3.79
+AB-,84,0,"routine surgery, not urgent",0.0,2,3.0
+AB+,76,1,recovering from surgery,0.0,6,4.33
+A+,87,0,serious internal bleeding from trauma,-0.17,8,2.08
+O+,40,0,mild dengue with moderate symptoms,0.17,5,1.73
+A+,35,0,mild dengue with moderate symptoms,0.17,8,1.58
+B-,41,1,mild dengue with moderate symptoms,0.17,3,4.0
+O+,70,0,severe anemia requiring urgent transfusion,0.0,5,2.4
+A-,27,0,high fever and dehydration,0.16,4,1.84
+B+,64,0,serious internal bleeding from trauma,-0.17,7,1.62
+A-,20,1,"routine surgery, not urgent",0.0,4,4.0
+O+,36,1,high fever and dehydration,0.16,5,3.74
+O-,45,1,cancer patient undergoing chemotherapy,0.0,1,5.5
+A-,5,1,"liver failure, needs transplant soon",-0.32,4,4.18
+O-,26,1,critical condition due to accident,-0.06,1,5.44
+O+,73,0,severe anemia requiring urgent transfusion,0.0,5,2.4
+AB-,27,0,"routine surgery, not urgent",0.0,2,2.5
+B-,13,1,high fever and dehydration,0.16,3,4.01
+AB-,81,1,mild dengue with moderate symptoms,0.17,2,4.83
+O+,45,1,high fever and dehydration,0.16,5,3.74
+AB-,46,1,critical condition due to accident,-0.06,2,4.44
+O+,17,1,recovering from surgery,0.0,5,3.9
+B+,89,0,"kidney patient, needs dialysis",0.0,7,2.29
+O+,17,1,severe anemia requiring urgent transfusion,0.0,5,3.9
+O-,16,1,"liver failure, needs transplant soon",-0.32,1,5.18
+B-,9,0,critical condition due to accident,-0.06,3,2.61
+A-,51,0,mild dengue with moderate symptoms,0.17,4,1.83
+O+,63,0,"kidney patient, needs dialysis",0.0,5,1.9
+AB-,11,0,"kidney patient, needs dialysis",0.0,2,2.5
+AB+,75,0,critical condition due to accident,-0.06,6,2.27
+O+,31,0,severe anemia requiring urgent transfusion,0.0,5,1.9

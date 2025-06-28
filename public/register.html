@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Love+Light&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none;"><h2 class="webname">Veeva - Life Saver 🩸</h2></a>
+        <nav>
+            <a href="signin.html"><button class="signin-btn">Sign In</button></a>
+            <a href="register.html"><button class="register-btn">Register</button></a>
+        </nav>
+    </header>
+    
+
+    <div class="form-container">
+        <h2>Create Your Account</h2>
+        <form id="registerForm" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Full Name" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <input type="password" id="password" placeholder="Password" required><br>
+            <input type="number" id="age" placeholder="Age" required min="18" max="65"><br>
+            
+            <select id="bloodGroup" required>
+                <option value="">Select Blood Group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select><br>
+
+            <label for="state"></label>
+            <select id="state" name="state" onchange="loadDistricts()">
+                <option value="">Select State</option>
+            </select>
+            <label for="district"></label>
+            <select id="district" name="district">
+                <option value="">Select District</option>
+            </select>
+            
+            <input type="text" id="city" placeholder="City" required><br>
+
+            
+            <select id="userType" name="userType" required onchange="toggleDonorFields()">
+            <option value="" disabled selected></option>
+            <option value="donor">Donor</option>
+            <option value="recipient">Recipient</option>
+            </select><br>
+
+            <div id="donorFields" style="display: none;">
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" placeholder="Enter Mobile Number" required pattern="[0-9]{10}"><br>            
+
+                <label for="lastDonationDate">Last Donation Date:</label>
+                <input type="date" id="lastDonationDate"><br>
+        
+                <label for="healthCondition">Health Condition:</label>
+                <textarea id="healthCondition" placeholder="Describe any health conditions (optional)"></textarea><br>
+            </div>
+
+            <button id="btn" type="submit">REGISTER</button>
+        </form>
+        <p id="pp">Already have an account? <a href="signin.html">Sign In</a></p>
+    </div>
+    <script >
+        document.addEventListener("DOMContentLoaded", function () {
+    const userTypeSelect = document.getElementById("userType");
+
+    if (userTypeSelect) {
+        userTypeSelect.addEventListener("change", function () {
+            let selectedValue = userTypeSelect.value;
+            console.log("Selected User Type:", selectedValue); 
+
+            let body = document.body;
+
+            if (selectedValue === "donor") {
+                console.log("Changing background to Donor");
+                body.style.backgroundImage = "url('../assets/images/donor1.jpg')";
+            } else if (selectedValue === "recipient") {
+                console.log("Changing background to Recipient");
+                body.style.backgroundImage = "url('../assets/images/2.jpeg.jpg')";
+            } else {
+                console.log("Changing background to Default");
+                body.style.backgroundImage = "url('../assets/images/4.jpeg.jpg')";
+            }
+
+            body.style.backgroundSize = "cover";
+            body.style.backgroundPosition = "center";
+            body.style.transition = "background 0.5s ease-in-out";
+        });
+    } else {
+        console.log("ERROR: Dropdown not found!");
+    }
+});
+
+            const stateDistricts = {
+    "Andhra Pradesh": ["Anantapur", "Chittoor", "Guntur", "Kadapa", "Krishna", "Kurnool", "Nellore", "Prakasam", "Srikakulam", "Visakhapatnam", "Vizianagaram", "West Godavari", "East Godavari"],
+    "Arunachal Pradesh": ["Anjaw", "Changlang", "East Kameng", "Itanagar", "Lohit", "Papum Pare", "Tawang", "Upper Siang", "West Kameng"],
+    "Assam": ["Baksa", "Barpeta", "Cachar", "Darrang", "Dhemaji", "Dibrugarh", "Goalpara", "Golaghat", "Jorhat", "Kamrup", "Lakhimpur", "Nagaon", "Tinsukia"],
+    "Bihar": ["Araria", "Bhagalpur", "Darbhanga", "Gaya", "Madhubani", "Muzaffarpur", "Patna", "Purnia", "Rohtas", "Samastipur", "Siwan", "Vaishali"],
+    "Chhattisgarh": ["Balod", "Bilaspur", "Dhamtari", "Durg", "Janjgir-Champa", "Korba", "Raigarh", "Raipur"],
+    "Goa": ["North Goa", "South Goa"],
+    "Gujarat": ["Ahmedabad", "Anand", "Banaskantha", "Bharuch", "Bhavnagar", "Gandhinagar", "Jamnagar", "Kutch", "Mehsana", "Rajkot", "Surat", "Vadodara"],
+    "Haryana": ["Ambala", "Faridabad", "Gurgaon", "Hisar", "Karnal", "Kurukshetra", "Panipat", "Rewari", "Rohtak", "Yamunanagar"],
+    "Himachal Pradesh": ["Bilaspur", "Chamba", "Hamirpur", "Kangra", "Kullu", "Mandi", "Shimla", "Solan", "Una"],
+    "Jharkhand": ["Bokaro", "Deoghar", "Dhanbad", "East Singhbhum", "Giridih", "Hazaribagh", "Ranchi", "West Singhbhum"],
+    "Karnataka": ["Bagalkot", "Bangalore", "Belgaum", "Bellary", "Bidar", "Chikmagalur", "Davanagere", "Dharwad", "Hubli", "Mangalore", "Mysore", "Tumkur", "Udupi"],
+    "Kerala": ["Alappuzha", "Ernakulam", "Idukki", "Kannur", "Kasaragod", "Kollam", "Kottayam", "Kozhikode", "Malappuram", "Palakkad", "Thiruvananthapuram", "Thrissur"],
+    "Madhya Pradesh": ["Bhopal", "Chhindwara", "Dewas", "Guna", "Gwalior", "Indore", "Jabalpur", "Mandsaur", "Ratlam", "Rewa", "Sagar", "Satna", "Ujjain", "Vidisha"],
+    "Maharashtra": ["Ahmednagar", "Aurangabad", "Mumbai", "Nagpur", "Nashik", "Pune", "Ratnagiri", "Solapur", "Thane", "Wardha"],
+    "Manipur": ["Bishnupur", "Chandel", "Churachandpur", "Imphal East", "Imphal West", "Thoubal", "Ukhrul"],
+    "Meghalaya": ["East Garo Hills", "East Khasi Hills", "Jaintia Hills", "West Garo Hills", "West Khasi Hills"],
+    "Mizoram": ["Aizawl", "Champhai", "Kolasib", "Lawngtlai", "Lunglei", "Mamit", "Saiha", "Serchhip"],
+    "Nagaland": ["Dimapur", "Kohima", "Mokokchung", "Phek", "Tuensang", "Wokha", "Zunheboto"],
+    "Odisha": ["Balangir", "Bargarh", "Bhadrak", "Cuttack", "Ganjam", "Jajpur", "Kandhamal", "Koraput", "Mayurbhanj", "Puri", "Rayagada", "Sambalpur"],
+    "Punjab": ["Amritsar", "Bathinda", "Faridkot", "Firozpur", "Gurdaspur", "Hoshiarpur", "Jalandhar", "Ludhiana", "Moga", "Patiala", "Rupnagar", "Sangrur"],
+    "Rajasthan": ["Ajmer", "Alwar", "Banswara", "Bikaner", "Chittorgarh", "Jaipur", "Jaisalmer", "Jodhpur", "Kota", "Sikar", "Udaipur"],
+    "Sikkim": ["East Sikkim", "North Sikkim", "South Sikkim", "West Sikkim"],
+    "Tamil Nadu": ["Chennai", "Coimbatore", "Erode", "Kanchipuram", "Madurai", "Salem", "Tiruchirappalli", "Tirunelveli", "Vellore"],
+    "Telangana": ["Adilabad", "Hyderabad", "Karimnagar", "Khammam", "Mahbubnagar", "Medak", "Nalgonda", "Nizamabad", "Rangareddy", "Warangal"],
+    "Tripura": ["Dhalai", "North Tripura", "South Tripura", "West Tripura"],
+    "Uttar Pradesh": ["Agra", "Aligarh", "Allahabad", "Bareilly", "Ghaziabad", "Gorakhpur", "Kanpur", "Lucknow", "Meerut", "Moradabad", "Varanasi"],
+    "Uttarakhand": ["Almora", "Dehradun", "Haridwar", "Nainital", "Pauri Garhwal", "Udham Singh Nagar", "Uttarkashi"],
+    "West Bengal": ["Alipurduar", "Bankura", "Bardhaman", "Darjeeling", "Howrah", "Kolkata", "Malda", "Murshidabad", "North 24 Parganas", "South 24 Parganas", "Siliguri"]
+    };
+
+    function loadStates() {
+        let stateSelect = document.getElementById("state");
+        for (let state in stateDistricts) {
+            let option = document.createElement("option");
+            option.value = state;
+            option.textContent = state;
+            stateSelect.appendChild(option);
+        }
+    }
+
+    function loadDistricts() {
+        let stateSelect = document.getElementById("state");
+        let districtSelect = document.getElementById("district");
+        let selectedState = stateSelect.value;
+        
+        
+        districtSelect.innerHTML = '<option value="">Select District</option>';
+
+        if (selectedState) {
+            stateDistricts[selectedState].forEach(district => {
+                let option = document.createElement("option");
+                option.value = district;
+                option.textContent = district;
+                districtSelect.appendChild(option);
+            });
+        }
+    }
+
+    
+    window.onload = loadStates;
+    function validateForm() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let age = document.getElementById("age").value;
+    let state = document.getElementById("state").value;
+    let district = document.getElementById("district").value;
+    let userType = document.getElementById("userType").value;
+    document.addEventListener("DOMContentLoaded", function () {
+    const userTypeSelect = document.getElementById("userType");
+    
+});
+
+
+
+    let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+    if (name.trim() === "") {
+        alert("Full Name is required");
+        return false;
+    }
+    if (!email.match(emailPattern)) {
+        alert("Enter a valid email");
+        return false;
+    }
+    if (password.length < 6) {
+        alert("Password must be at least 6 characters");
+        return false;
+    }
+    if (isNaN(age) || age < 18 || age > 100) {
+        alert("Enter a valid age (18-100)");
+        return false;
+    }
+    if (state === "") {
+        alert("Select a State");
+        return false;
+    }
+    if (district === "") {
+        alert("Select a District");
+        return false;
+    }
+    if (userType === "donor") {
+    let mobile = document.getElementById("mobile").value;
+    let mobilePattern = /^[0-9]{10}$/;
+    if (!mobile.match(mobilePattern)) {
+        alert("Enter a valid 10-digit mobile number.");
+        return false;
+    }
+    let lastDonationDate = document.getElementById("lastDonationDate").value;
+    if (!lastDonationDate) {
+        alert("Donors must enter last donation date.");
+        return false;
+    }
+}
+
+    return true;
+}
+
+    function toggleDonorFields() {
+    const userType = document.getElementById("userType").value;
+    const donorFields = document.getElementById("donorFields");
+
+    if (userType === "donor") {
+        donorFields.style.display = "block";
+    } else {
+        donorFields.style.display = "none";
+    }
+}
+
+    document.getElementById("registerForm").addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    const formData = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    password: document.getElementById("password").value,
+    age: document.getElementById("age").value,
+    bloodGroup: document.getElementById("bloodGroup").value,
+    state: document.getElementById("state").value,
+    district: document.getElementById("district").value,
+    city: document.getElementById("city").value,
+    userType: document.getElementById("userType").value,
+    mobile: document.getElementById("userType").value === "donor" ? document.getElementById("mobile").value : null, // ✅ Include Mobile Number
+    lastDonationDate: document.getElementById("userType").value === "donor" ? document.getElementById("lastDonationDate").value : null,
+    healthCondition: document.getElementById("userType").value === "donor" ? document.getElementById("healthCondition").value : null
+};
+
+
+    try {
+        const response = await fetch("http://localhost:5000/api/auth/register", { // ✅ Ensure correct API URL
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+        });
+
+        const result = await response.json();
+        if (response.ok) {
+            alert("✅ Registration successful!");
+            window.location.href = "signin.html"; // Redirect to sign-in page
+        } else {
+            alert("❌ Error: " + result.error);
+        }
+    } catch (error) {
+        console.error("❌ Error registering user:", error);
+        alert("❌ Server error. Please try again later.");
+    }
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Find My Location | VEEVA</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fc;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0 10px;
+    }
+
+    #locationResult {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    #map {
+      width: 100%;
+      height: 80vh;
+    }
+
+    .leaflet-popup-content {
+      
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <h1>📍 Detect My Location</h1>
+  <div id="locationResult">Fetching your location...</div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="/map.js"></script>
+</body>
+</html>

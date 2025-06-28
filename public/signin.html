@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Love+Light&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/signin.css">
+</head>
+<body>
+    <header>
+  <a href="index.html" style="text-decoration: none;">
+    <h2 class="webname">Veeva - Life Saver 🩸</h2>
+  </a>
+  <nav>
+    <a href="signin.html"><button class="signin-btn">Sign In</button></a>
+    <a href="register.html"><button class="register-btn">Register</button></a>
+  </nav>
+</header>
+
+    <div class="form-container">
+        <!-- 🚀 Add Scrolling Ribbon -->
+   <div class="emergency-banner">
+    <marquee behavior="scroll" direction="left">
+        🚨 If it's an emergency, <a href="available_donors.html">Click here to find available donors</a> 🚨
+    </marquee>
+   </div>
+
+        <h2>Sign In</h2>
+        <form id="signinForm">
+            <input type="email" id="loginEmail" placeholder="Enter Your Registered Email" required><br>
+            <input type="password" id="loginPassword" placeholder="Password" required><br>            
+            <button type="submit">SIGN IN</button>
+        </form>
+        <p id="pp">Don't have an account? <a href="register.html">Register</a></p>
+    </div>
+   <script src="../assets/signin.js"></script>
+</body>
+</html>

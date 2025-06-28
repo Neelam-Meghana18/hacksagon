@@ -1,0 +1,199 @@
+
+
+
+/* Base Reset */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background: url("../assets/images/360_F_783303816_3JU86bfQNmeLVTvUrACUWUip31TIgN5x.jpg") no-repeat center center/cover; */
+    background: url("../assets/images/4.jpeg.jpg") no-repeat center center/cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background 0.5s ease-in-out;
+}
+
+/* Header Styles (match signin.html) */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    background: rgba(236, 236, 236, 0.7);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(222, 46, 9, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    height: 58px;
+}
+
+header:hover {
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.webname {
+    font-family: "Love Light", serif;
+    font-size: 25px;
+    color: #de2e09;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    margin: 0;
+}
+
+.webname::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #de2e09, #f62d05);
+    transition: width 0.4s ease-in-out;
+}
+
+.webname:hover::after {
+    width: 100%;
+}
+
+.webname:hover {
+    transform: translateY(-2px);
+    text-shadow: 0 3px 10px rgba(222, 46, 9, 0.3);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logout-btn {
+    background: linear-gradient(135deg, #de2e09, #f62d05);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 9px 22px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 20px rgba(222, 46, 9, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.logout-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.6s;
+}
+
+.logout-btn:hover::before {
+    left: 100%;
+}
+
+.logout-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 30px rgba(222, 46, 9, 0.4);
+}
+
+#home {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Form Styling */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    padding: 20px;
+    background: rgba(236, 236, 236, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.form-container:hover {
+    background: rgba(236, 236, 236, 0.75);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button[type="submit"] {
+    background-color: #de2e09;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 150px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #d62828;
+    transform: scale(1.05);
+}
+
+h2 {
+    font-family: "Emilys Candy", cursive;
+    color: #de2e09;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav {
+        margin-top: 8px;
+    }
+}
