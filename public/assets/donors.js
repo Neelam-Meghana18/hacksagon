@@ -104,6 +104,62 @@ async function searchDonors() {
 
 
 
+// function addWhatsAppEventListeners() {
+//     document.querySelectorAll(".whatsapp-link").forEach(link => {
+//         link.addEventListener("click", function (event) {
+//             event.preventDefault();
+
+//             let mobileNumber = this.getAttribute("data-mobile")?.trim();
+//             if (!mobileNumber || mobileNumber.length < 10 || !/^\d+$/.test(mobileNumber)) {
+//                 alert(`❌ Invalid mobile number found for this donor: ${mobileNumber}`);
+//                 return;
+//             }
+
+//             if (!mobileNumber.startsWith("+") && mobileNumber.length === 10) {
+//                 mobileNumber = `+91${mobileNumber}`;
+//             }
+
+//             const bloodGroup = prompt("Enter the required blood group:");
+//             const healthCondition = prompt("Enter the patient's health condition:");
+//             const donorRow = this.closest("tr");
+//             const donorDistrict = donorRow ? donorRow.cells[2].textContent.trim() : "Unknown";
+
+//             if (bloodGroup && healthCondition) {
+//                 // ✅ Emoji-rich message (for saved contacts)
+//                 const emojiMessage =
+//                     "🚨 *Urgent Blood Request* 🚨\n\n" +
+//                     "💉 Required Blood Group: " + bloodGroup + "\n" +
+//                     "🫀 Patient Condition: " + healthCondition + "\n" +
+//                     "📍 Location: " + donorDistrict + "\n\n" +
+//                     "🙏 If you're available to help, please respond.\n" +
+//                     "❤️ Your kindness can save a life today.";
+
+//                 // ✅ Plain message (fallback)
+//                 const plainMessage =
+//                     "Urgent Blood Request\n\n" +
+//                     "Required Blood Group: " + bloodGroup + "\n" +
+//                     "Patient Condition: " + healthCondition + "\n" +
+//                     "Location: " + donorDistrict + "\n\n" +
+//                     "If you're available to help, please respond.\n" +
+//                     "Your kindness can save a life today.";
+
+//                 // Try opening WhatsApp Desktop for saved contact
+//                 // const whatsappDesktopURL = `https://wa.me/${mobileNumber.replace('+', '')}?text=${encodeURIComponent(plainMessage)}`;
+//                 // window.location.href = whatsappDesktopURL;
+
+//                 // Fallback: Open WhatsApp Web if desktop fails (after 3s)
+//                 setTimeout(() => {
+//                     const confirmFallback = confirm("The number may not be saved in your contacts. Open WhatsApp Web instead?");
+//                     if (confirmFallback) {
+//                         const whatsappWebURL = `https://wa.me/${mobileNumber.replace('+', '')}?text=${encodeURIComponent(plainMessage)}`;
+//                         window.open(whatsappWebURL, "_blank");
+//                     }
+//                 }, 3000);
+//             }
+//         });
+//     });
+// }
+
 function addWhatsAppEventListeners() {
     document.querySelectorAll(".whatsapp-link").forEach(link => {
         link.addEventListener("click", function (event) {
@@ -111,7 +167,7 @@ function addWhatsAppEventListeners() {
 
             let mobileNumber = this.getAttribute("data-mobile")?.trim();
             if (!mobileNumber || mobileNumber.length < 10 || !/^\d+$/.test(mobileNumber)) {
-                alert(`❌ Invalid mobile number found for this donor: ${mobileNumber}`);
+                alert(`❌ Invalid mobile number: ${mobileNumber}`);
                 return;
             }
 
@@ -119,42 +175,58 @@ function addWhatsAppEventListeners() {
                 mobileNumber = `+91${mobileNumber}`;
             }
 
-            const bloodGroup = prompt("Enter the required blood group:");
-            const healthCondition = prompt("Enter the patient's health condition:");
+            const bloodGroup = prompt("🩸 Enter the required blood group:");
+            const healthCondition = prompt("🫀 Enter the patient's health condition:");
             const donorRow = this.closest("tr");
             const donorDistrict = donorRow ? donorRow.cells[2].textContent.trim() : "Unknown";
 
-            if (bloodGroup && healthCondition) {
-                // ✅ Emoji-rich message (for saved contacts)
-                const emojiMessage =
-                    "🚨 *Urgent Blood Request* 🚨\n\n" +
-                    "💉 Required Blood Group: " + bloodGroup + "\n" +
-                    "🫀 Patient Condition: " + healthCondition + "\n" +
-                    "📍 Location: " + donorDistrict + "\n\n" +
-                    "🙏 If you're available to help, please respond.\n" +
-                    "❤️ Your kindness can save a life today.";
+            if (!bloodGroup || !healthCondition) {
+                alert("⚠️ Blood group and health condition are required.");
+                return;
+            }
 
-                // ✅ Plain message (fallback)
-                const plainMessage =
-                    "Urgent Blood Request\n\n" +
-                    "Required Blood Group: " + bloodGroup + "\n" +
-                    "Patient Condition: " + healthCondition + "\n" +
-                    "Location: " + donorDistrict + "\n\n" +
-                    "If you're available to help, please respond.\n" +
-                    "Your kindness can save a life today.";
+            const message =
+                `🚨 *Urgent Blood Request* 🚨\n\n` +
+                `💉 Required Blood Group: ${bloodGroup}\n` +
+                `🫀 Patient Condition: ${healthCondition}\n` +
+                `📍 Location: ${donorDistrict}\n\n` +
+                `🙏 If you're available to help, please respond.\n` +
+                `❤️ Your kindness can save a life today.`;
 
-                // Try opening WhatsApp Desktop for saved contact
-                // const whatsappDesktopURL = `https://wa.me/${mobileNumber.replace('+', '')}?text=${encodeURIComponent(plainMessage)}`;
-                // window.location.href = whatsappDesktopURL;
+            const cleanNumber = mobileNumber.replace("+", "");
+            const draftURL = `https://wa.me/${cleanNumber}?text=${encodeURIComponent(message)}`;
+            const desktopURL = `whatsapp://send?phone=${cleanNumber}&text=${encodeURIComponent(message)}`;
 
-                // Fallback: Open WhatsApp Web if desktop fails (after 3s)
+            // 🧠 Check if this number was already used before
+            const alreadyContacted = localStorage.getItem("wa_" + cleanNumber) === "true";
+
+            if (alreadyContacted) {
+                // ✅ Already contacted — show desktop-friendly button
+                const btn = document.createElement("button");
+                btn.innerText = "📨 Send Message in WhatsApp";
+                btn.style = "padding: 12px 18px; margin-top: 20px; background-color: #25D366; color: white; border: none; border-radius: 6px; cursor: pointer;";
+                btn.onclick = () => {
+                    // This action is allowed because it's directly tied to a user click
+                    window.location.href = desktopURL;
+                };
+                document.body.appendChild(btn);
+                alert("✅ You've already messaged this donor. Click the button below to draft the message directly in WhatsApp.");
+            } else {
+                // 🚀 First-time ping: open via browser (safe way)
+                window.open(`https://wa.me/${cleanNumber}`, "_blank");
+
                 setTimeout(() => {
-                    const confirmFallback = confirm("The number may not be saved in your contacts. Open WhatsApp Web instead?");
-                    if (confirmFallback) {
-                        const whatsappWebURL = `https://wa.me/${mobileNumber.replace('+', '')}?text=${encodeURIComponent(plainMessage)}`;
-                        window.open(whatsappWebURL, "_blank");
-                    }
-                }, 3000);
+                    alert("✅ After sending 'Hi', click the button below to send the full message.");
+
+                    const sendBtn = document.createElement("button");
+                    sendBtn.innerText = "📨 Send Full Message";
+                    sendBtn.style = "padding: 12px 18px; margin-top: 20px; background-color: #25D366; color: white; border: none; border-radius: 6px; cursor: pointer;";
+                    sendBtn.onclick = () => {
+                        window.location.href = desktopURL;
+                        localStorage.setItem("wa_" + cleanNumber, "true"); // Save this number for future direct opens
+                    };
+                    document.body.appendChild(sendBtn);
+                }, 5000);
             }
         });
     });

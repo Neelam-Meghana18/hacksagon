@@ -157,13 +157,19 @@ async function sendEmails(donors, recipientEmail) {
             to: donor.email,
             subject: "🚑 Urgent Blood Donation Request",
             html: `
-                <h3>Dear ${donor.name},</h3>
-                <p>A recipient in your district urgently needs blood.</p>
-                <h4>✅ Recipient Contact Email:</h4>
-                <p>${recipientEmail}</p>
-                <p>If you are willing to donate, please contact the recipient directly.</p>
-                <p><b>Thank you for your generosity! ❤️</b></p>
-                <p>Regards, <br><b>Blood Matcher Team</b></p>
+            <h3>Dear ${donor.name}, 👋</h3>
+
+        <p>We hope you're doing well. A patient in your district urgently needs blood, and your blood type matches their requirement. 🩸</p>
+
+        <h4>📩 Recipient Contact:</h4>
+        <p><b>${recipientEmail}</b></p>
+
+        <p>🕒 If you're healthy and able to donate, kindly consider reaching out to the recipient as soon as possible. Your one act of kindness could help save a life today. ❤️</p>
+
+        <p>🙏 Thank you for being part of our life-saving community.</p>
+
+        <p><b>With gratitude,</b><br><b>Team VEEVA – LifeSaver Network 🚑</b></p>
+
             `
         };
 
